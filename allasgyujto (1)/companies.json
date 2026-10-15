@@ -827,6 +827,1118 @@
    "url": "https://jobs.ceetelcogroup.com/yettel/search/?createNewAlert=false&q={kw}&optionsFacetsDD_country=HU&optionsFacetsDD_lang=&optionsFacetsDD_department=",
    "liked": false,
    "target": false
+  },
+  {
+   "ats": "html",
+   "url": "https://careers.abbvie.com/en/jobs?q=Budapest&options=&page=1",
+   "linkPattern": "/job/.*-jid-\\d+",
+   "filterHU": true,
+   "slug": "abbvie",
+   "name": "AbbVie",
+   "sector": "pharma",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "workday",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers",
+   "slug": "accenture",
+   "name": "Accenture",
+   "sector": "tanácsadás",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://karrier.alfa.hu/",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "alfa-vienna-insurance",
+   "name": "Alfa Vienna Insurance Group",
+   "sector": "biztosítás",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "phenom",
+   "url": "https://careers.allianz.com/global/en/search-results?keywords=Budapest",
+   "slug": "allianz-technology",
+   "name": "Allianz Technology",
+   "sector": "IT/biztosítás",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "workday",
+   "url": "https://astrazeneca.wd3.myworkdayjobs.com/Careers",
+   "slug": "astrazeneca",
+   "name": "AstraZeneca",
+   "sector": "pharma",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://www.avisbudgetgroup.jobs/jobs?filter[country][0]=Hungary",
+   "linkPattern": "/job/P1-\\d+-\\d+",
+   "slug": "avis-budget",
+   "name": "Avis Budget Group Budapest",
+   "sector": "SSC",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "workday",
+   "url": "https://bpinternational.wd3.myworkdayjobs.com/bpCareers",
+   "slug": "bp-business-service-centre",
+   "name": "BP Business Service Centre Budapest",
+   "sector": "SSC",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://betssongroup.com/job-location/budapest/",
+   "linkPattern": "/job/[^/]+/",
+   "slug": "betsson",
+   "name": "Betsson Group",
+   "sector": "iGaming",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://www.biggeorgeproperty.hu/hu/karrier",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "biggeorge",
+   "name": "Biggeorge",
+   "sector": "ingatlan",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://blackcell.io/careers/",
+   "linkPattern": "#[A-Za-z0-9]+",
+   "slug": "black-cell",
+   "name": "Black Cell",
+   "sector": "IT",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://careers.blackrock.com/location/budapest-jobs/45831/719819-3054638/3/1",
+   "linkPattern": "/job/budapest/[^/]+/45831/\\d+",
+   "slug": "blackrock",
+   "name": "BlackRock Budapest",
+   "sector": "pénzügy",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://bluebirdinternational.com/it-jobs-and-it-projects/",
+   "waitMs": 6000,
+   "filterHU": true,
+   "slug": "bluebird-international",
+   "name": "Bluebird International",
+   "sector": "IT",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "successfactors",
+   "url": "https://jobs.boehringer-ingelheim.com/search/?q={kw}&locationsearch=Budapest",
+   "slug": "boehringer-ingelheim",
+   "name": "Boehringer Ingelheim",
+   "sector": "pharma",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "successfactors",
+   "url": "https://jobs.molsoncoors.com/MolsonCoors_UK/search/?q={kw}&locationsearch=Hungary",
+   "slug": "borsodi-sorgyar",
+   "name": "Borsodi Sörgyár (Molson Coors)",
+   "sector": "FMCG",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "phenom",
+   "url": "https://careers.bcg.com/global/en/search-results?keywords=Budapest",
+   "slug": "boston-consulting",
+   "name": "Boston Consulting Group",
+   "sector": "tanácsadás",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://budapest.hu/varoshaza/fopolgarmesteri-hivatal/karrier/nyitott-poziciok",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "fovaros-onkormanyzata",
+   "name": "Budapest Főváros Önkormányzata",
+   "sector": "állami",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://karrier.recruito.net/corvinus/",
+   "linkPattern": "/corvinus/index.php/job/\\d+/",
+   "slug": "budapesti-corvinus-egyetem",
+   "name": "Budapesti Corvinus Egyetem",
+   "sector": "egyetem",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://karrier.bkv.hu/allasajanlatok",
+   "linkPattern": "/allasajanlat/[^/]+",
+   "slug": "budapesti-kozlekedesi",
+   "name": "Budapesti Közlekedési Zrt. (BKV)",
+   "sector": "állami",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://www.beres.hu/karrier",
+   "linkPattern": "/allas/",
+   "filterHU": false,
+   "slug": "beres-gyogyszergyar",
+   "name": "Béres Gyógyszergyár",
+   "sector": "pharma",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://cba.hu/karrier",
+   "filterHU": false,
+   "slug": "cba",
+   "name": "CBA",
+   "sector": "retail",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://www.cigpannonia.hu/rolunk/karrier",
+   "linkPattern": "/rolunk/karrier/",
+   "filterHU": false,
+   "slug": "cig-pannonia",
+   "name": "CIG Pannónia",
+   "sector": "biztosítás",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://ejqe.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
+   "waitMs": 6000,
+   "filterHU": true,
+   "slug": "canon",
+   "name": "Canon",
+   "sector": "tech",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "successfactors",
+   "url": "https://careers.capgemini.com/search/?q={kw}&locationsearch=Budapest",
+   "slug": "capgemini",
+   "name": "Capgemini",
+   "sector": "IT",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://jobs.citi.com/location/budapest-jobs/287/719819-3054638/3",
+   "linkPattern": "/job/budapest/",
+   "filterHU": false,
+   "slug": "citi",
+   "name": "Citi Budapest",
+   "sector": "pénzügy",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "workday",
+   "url": "https://coke.wd1.myworkdayjobs.com/coca-cola-careers",
+   "slug": "coca-cola-company",
+   "name": "Coca-Cola Company Budapest",
+   "sector": "FMCG",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://careers.cognizant.com/global-en/jobs/",
+   "linkPattern": "/global-en/jobs/\\d+/",
+   "filterHU": true,
+   "slug": "cognizant",
+   "name": "Cognizant",
+   "sector": "IT",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://www.craft.do/careers",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "craft",
+   "name": "Craft",
+   "sector": "tech",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "greenhouse",
+   "id": "dept",
+   "slug": "dept",
+   "name": "DEPT",
+   "sector": "ügynökség",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "phenom",
+   "url": "https://careers.dhl.com/eu/hu/search-results?keywords=Budapest",
+   "slug": "dhl",
+   "name": "DHL",
+   "sector": "logisztika",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://karrier.danubiushotels.com/index.php/jobs",
+   "linkPattern": "/index.php/ad/landingpage_",
+   "filterHU": false,
+   "slug": "danubius-hotels",
+   "name": "Danubius Hotels",
+   "sector": "turizmus",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers",
+   "waitMs": 6000,
+   "filterHU": true,
+   "slug": "dell-technologies",
+   "name": "Dell Technologies",
+   "sector": "tech",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://apply.deloittece.com/hu_HU/careers/SearchJobs/?523=%5B5514%5D&523_format=1482&listFilterMode=1&jobRecordsPerPage=10&",
+   "linkPattern": "/careers/JobDetail/",
+   "filterHU": false,
+   "slug": "deloitte",
+   "name": "Deloitte",
+   "sector": "tanácsadás",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "workday",
+   "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL",
+   "slug": "dentsu",
+   "name": "Dentsu",
+   "sector": "ügynökség",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://careers.telekom.com/en/jobs",
+   "waitMs": 6000,
+   "filterHU": true,
+   "slug": "deutsche-telekom-it-solutions",
+   "name": "Deutsche Telekom IT Solutions",
+   "sector": "IT",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "workday",
+   "url": "https://diageo.wd3.myworkdayjobs.com/Diageo_Careers",
+   "slug": "diageo",
+   "name": "Diageo",
+   "sector": "FMCG",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://dina.agency/career",
+   "linkPattern": "/career/[a-z]",
+   "filterHU": false,
+   "slug": "digital-natives",
+   "name": "Digital Natives",
+   "sector": "IT",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://careers.epam.com/en/jobs/hungary?sort_by=relevance",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "epam-systems",
+   "name": "EPAM Systems",
+   "sector": "IT",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "successfactors",
+   "url": "https://careers.ey.com/ey/search/?q={kw}&locationsearch=Budapest",
+   "slug": "ey",
+   "name": "EY",
+   "sector": "tanácsadás",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "phenom",
+   "url": "https://career.electroluxgroup.com/global/search-results?keywords=Hungary",
+   "slug": "electrolux",
+   "name": "Electrolux",
+   "sector": "ipar",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "phenom",
+   "url": "https://careers.lilly.com/us/en/search-results?keywords=Budapest",
+   "slug": "eli-lilly",
+   "name": "Eli Lilly",
+   "sector": "pharma",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "successfactors",
+   "url": "https://jobs.sap.com/search/?q={kw}&locationsearch=Budapest",
+   "slug": "emarsys",
+   "name": "Emarsys (SAP)",
+   "sector": "martech",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://karrier.euronics.hu/",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "euronics",
+   "name": "Euronics",
+   "sector": "retail",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "successfactors",
+   "url": "https://jobs.exxonmobil.com/search/?q={kw}&locationsearch=Budapest",
+   "slug": "exxonmobil",
+   "name": "ExxonMobil Budapest",
+   "sector": "SSC",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://www.ferrerocareers.com/ca/en/jobs",
+   "linkPattern": "/ca/en/jobs/[a-z0-9-]+",
+   "filterHU": true,
+   "slug": "ferrero",
+   "name": "Ferrero",
+   "sector": "FMCG",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "greenhouse",
+   "id": "formlabs",
+   "slug": "formlabs",
+   "name": "Formlabs Budapest",
+   "sector": "tech",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://foxpost.karrierportal.hu/allasok",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "foxpost",
+   "name": "Foxpost",
+   "sector": "logisztika",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://jobs.fressnapf.hu/en/fibs/search",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "fressnapf",
+   "name": "Fressnapf",
+   "sector": "retail",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "successfactors",
+   "url": "https://mycareers.frieslandcampina.com/search/?q={kw}&locationsearch=Hungary",
+   "slug": "frieslandcampina",
+   "name": "FrieslandCampina",
+   "sector": "FMCG",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://futureal.hu/karrier",
+   "linkPattern": "/hu/jobs/",
+   "filterHU": false,
+   "slug": "futureal",
+   "name": "Futureal",
+   "sector": "ingatlan",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "phenom",
+   "url": "https://jobs.gsk.com/gb/en/search-results?keywords=Budapest",
+   "slug": "gsk",
+   "name": "GSK",
+   "sector": "pharma",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "smartrecruiters",
+   "id": "HMGroup",
+   "slug": "h-m",
+   "name": "H&M",
+   "sector": "retail",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://www.hellenergy.com/hu/karrier",
+   "linkPattern": "karrier\\.hellenergy\\.hu/Datacenter/Registration/JobAdvertisement/\\d+",
+   "filterHU": false,
+   "slug": "hell-energy",
+   "name": "HELL Energy",
+   "sector": "FMCG",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://apply.hp.com/careers",
+   "waitMs": 6000,
+   "filterHU": true,
+   "slug": "hp",
+   "name": "HP",
+   "sector": "tech",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "smartrecruiters",
+   "id": "Hiflylabs",
+   "slug": "hiflylabs",
+   "name": "Hiflylabs",
+   "sector": "IT",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://www.ibm.com/careers/search?field_keyword_05%5B0%5D=Hungary",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "ibm",
+   "name": "IBM",
+   "sector": "tech",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "successfactors",
+   "url": "https://jobs.jti.com/search/?q={kw}&locationsearch=Hungary",
+   "slug": "jti",
+   "name": "JTI",
+   "sector": "FMCG",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://allas.jysk.hu",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "jysk",
+   "name": "JYSK",
+   "sector": "retail",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://jobs.jabil.com/en/location/hungary-jobs/626/719819/2",
+   "linkPattern": "/en/job/[^/]+/[^/]+/626/\\d+",
+   "filterHU": false,
+   "slug": "jabil",
+   "name": "Jabil",
+   "sector": "ipar",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "successfactors",
+   "url": "https://jobs.janushenderson.com/search/?q={kw}&locationsearch=Budapest",
+   "slug": "janus-henderson-investors",
+   "name": "Janus Henderson Investors",
+   "sector": "pénzügy",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "workday",
+   "url": "https://jj.wd5.myworkdayjobs.com/JJ",
+   "slug": "johnson-johnson",
+   "name": "Johnson & Johnson",
+   "sector": "pharma",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://jobs.kpmg.hu/",
+   "linkPattern": "/allasajanlat/\\d+",
+   "slug": "kpmg",
+   "name": "KPMG",
+   "sector": "tanácsadás",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "workday",
+   "url": "https://kardex.wd103.myworkdayjobs.com/Kardex",
+   "slug": "kardex",
+   "name": "Kardex",
+   "sector": "ipar",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://www.krka.co.hu/karrier/allashetosegek/",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "krka",
+   "name": "Krka",
+   "sector": "pharma",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://careers.loreal.com/global/en/search-results?qcountry=Hungary",
+   "waitMs": 6000,
+   "filterHU": true,
+   "slug": "l-oreal",
+   "name": "L'Oréal Magyarország",
+   "sector": "FMCG",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "workday",
+   "url": "https://lego.wd103.myworkdayjobs.com/LEGO_External",
+   "slug": "lego",
+   "name": "LEGO",
+   "sector": "ipar",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "successfactors",
+   "url": "https://recruit.lg.com/LGGroup/search?locale=en_US&q={kw}",
+   "slug": "lg-electronics",
+   "name": "LG Electronics",
+   "sector": "tech",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://jobs.lenovo.com/en_US/careers/SearchJobs",
+   "filterHU": true,
+   "slug": "lenovo",
+   "name": "Lenovo",
+   "sector": "tech",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://libribookline.hrmaster.hu/DataCenter/Registration/JobAdvertisements/allasok",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "libri",
+   "name": "Libri",
+   "sector": "retail",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://www.magnetbank.hu/karrier",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "magnet-bank",
+   "name": "Magnet Bank",
+   "sector": "bank",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://www.allamkincstar.gov.hu/footer-tartalmak/vizszintes-sor/Karrier/Allasajanlatok",
+   "linkPattern": "/Karrier/Allasajanlatok/[^/]+/[a-z0-9-]+",
+   "slug": "magyar-allamkincstar",
+   "name": "Magyar Államkincstár",
+   "sector": "állami",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://karrier.market.hu/Datacenter/Registration/JobAdvertisements/allasok",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "market-epito",
+   "name": "Market Építő",
+   "sector": "építőipar",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "phenom",
+   "url": "https://careers.mars.com/global/en/search-results?keywords=Budapest",
+   "slug": "mars",
+   "name": "Mars",
+   "sector": "FMCG",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://allas.mastergood.hu/",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "master-good",
+   "name": "Master Good",
+   "sector": "FMCG",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://mccann.hu/career/",
+   "linkPattern": "/career/[a-z0-9-]+",
+   "slug": "mccann",
+   "name": "McCann Budapest",
+   "sector": "ügynökség",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://www.mckinsey.com/careers/search-jobs",
+   "waitMs": 6000,
+   "filterHU": true,
+   "slug": "mckinsey",
+   "name": "McKinsey Budapest",
+   "sector": "tanácsadás",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://mediaworks.hu/allasajanlatok/",
+   "slug": "mediaworks",
+   "name": "Mediaworks",
+   "sector": "média",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://www.metlifecareers.com/en_US/ml/SearchJobs?7521=116586&listFilterMode=1",
+   "filterHU": true,
+   "slug": "metlife",
+   "name": "MetLife",
+   "sector": "biztosítás",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://apply.careers.microsoft.com/careers?location=Hungary",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "microsoft",
+   "name": "Microsoft Magyarország",
+   "sector": "tech",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://www.morganstanley.com/careers/career-opportunities-search?opportunity=sg",
+   "waitMs": 6000,
+   "filterHU": true,
+   "slug": "morgan-stanley",
+   "name": "Morgan Stanley Budapest",
+   "sector": "pénzügy",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://karrier.moebelix.hu/allasok",
+   "linkPattern": "^/[A-Z0-9]{4}-[a-z0-9-]+",
+   "slug": "mobelix",
+   "name": "Möbelix",
+   "sector": "retail",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "workday",
+   "url": "https://nngroup.wd3.myworkdayjobs.com/WDExternal",
+   "slug": "nn-biztosito",
+   "name": "NN Biztosító",
+   "sector": "biztosítás",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://careers.nng.com/",
+   "linkPattern": "/job/\\d+",
+   "slug": "nng",
+   "name": "NNG",
+   "sector": "tech",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://nav.gov.hu/allaspalyazat",
+   "linkPattern": "/allaspalyazat/[^/]+/[^/?$]+",
+   "slug": "nemzeti-ado-es-vamhivatal",
+   "name": "Nemzeti Adó- és Vámhivatal",
+   "sector": "állami",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://jobs.nokia.com/en/sites/CX_1",
+   "waitMs": 6000,
+   "filterHU": true,
+   "slug": "nokia",
+   "name": "Nokia Budapest",
+   "sector": "tech",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://simplepay.hu/karrier/",
+   "linkPattern": "/karrier/[a-z0-9-]+/",
+   "slug": "otp-mobil",
+   "name": "OTP Mobil (SimplePay)",
+   "sector": "fintech",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://omnicommediagroup.karrierportal.hu",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "omnicom-media",
+   "name": "Omnicom Media Group",
+   "sector": "ügynökség",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "workday",
+   "url": "https://opella.wd103.myworkdayjobs.com/OpellaCareers",
+   "slug": "opella",
+   "name": "Opella",
+   "sector": "consumer health",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://careers.oracle.com/en/sites/jobsearch",
+   "waitMs": 6000,
+   "filterHU": true,
+   "slug": "oracle",
+   "name": "Oracle",
+   "sector": "tech",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://foxpost.karrierportal.hu/allasok",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "packeta",
+   "name": "Packeta",
+   "sector": "logisztika",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://karrier.penny.hu/DataCenter/Registration/JobAdvertisements/kozpont",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "penny-market",
+   "name": "Penny Market",
+   "sector": "retail",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://pepjobs.mypepsico.com/europe/jobs?country=Hungary",
+   "waitMs": 6000,
+   "filterHU": false,
+   "slug": "pepsico",
+   "name": "PepsiCo",
+   "sector": "FMCG",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://www.petranyiauto.hu/cegunkrol/karrier/",
+   "linkPattern": "/karrier/poziciok/\\d+",
+   "slug": "petranyi-auto",
+   "name": "Petrányi Autó",
+   "sector": "autókereskedés",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "workday",
+   "url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers",
+   "slug": "pfizer",
+   "name": "Pfizer",
+   "sector": "pharma",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "phenom",
+   "url": "https://www.careers.philips.com/global/en/search-results?keywords=Budapest",
+   "slug": "philips",
+   "name": "Philips",
+   "sector": "tech",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://www.phoenix.hu/hu/phoenix-karrier-1",
+   "linkPattern": "/fileadmin/media/karrier/[^\"]+\\.pdf",
+   "slug": "phoenix-pharma",
+   "name": "Phoenix Pharma",
+   "sector": "pharma",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://careers.publicisgroupe.com/jobs",
+   "waitMs": 6000,
+   "filterHU": true,
+   "slug": "publicis-groupe",
+   "name": "Publicis Groupe",
+   "sector": "ügynökség",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "phenom",
+   "url": "https://jobs-cee.pwc.com/hu/search-results",
+   "slug": "pwc",
+   "name": "PwC",
+   "sector": "tanácsadás",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "successfactors",
+   "url": "https://careers.reckitt.com/search/?q={kw}&locationsearch=Budapest",
+   "slug": "reckitt",
+   "name": "Reckitt",
+   "sector": "FMCG",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://www.rheinmetall.com/en/career/vacancies",
+   "waitMs": 6000,
+   "filterHU": true,
+   "slug": "rheinmetall",
+   "name": "Rheinmetall",
+   "sector": "ipar",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "successfactors",
+   "url": "https://jobs.sap.com/search/?q={kw}&locationsearch=Budapest",
+   "slug": "sap",
+   "name": "SAP",
+   "sector": "tech",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "workday",
+   "url": "https://sabre.wd1.myworkdayjobs.com/SabreJobs",
+   "slug": "sabre",
+   "name": "Sabre Budapest",
+   "sector": "tech",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "workday",
+   "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers",
+   "slug": "samsung-electronics",
+   "name": "Samsung Electronics",
+   "sector": "tech",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "lever",
+   "id": "supercharge",
+   "slug": "supercharge",
+   "name": "Supercharge",
+   "sector": "digitális ügynökség",
+   "confidence": "high",
+   "added": "2026-10-15",
+   "region": "eu"
+  },
+  {
+   "ats": "phenom",
+   "url": "https://jobs.thermofisher.com/global/en/search-results?keywords=Budapest",
+   "slug": "thermo-fisher-scientific",
+   "name": "Thermo Fisher Scientific",
+   "sector": "life science",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "workable",
+   "id": "turbine-1",
+   "slug": "turbine-ai",
+   "name": "Turbine AI",
+   "sector": "biotech",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://careers.unilever.com/location/budapest-jobs/34155/719819-3054638-3054643/4",
+   "linkPattern": "/job/budapest/",
+   "slug": "unilever-business-service-centre",
+   "name": "Unilever Budapest Business Service Centre",
+   "sector": "SSC",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://www.vml.com/cs/hungary/careers",
+   "linkPattern": "/careers/job/\\d+",
+   "filterHU": true,
+   "slug": "vml",
+   "name": "VML",
+   "sector": "ügynökség",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "successfactors",
+   "url": "https://opportunities.vodafone.com/search/?q={kw}&locationsearch=Budapest",
+   "slug": "vodafone-intelligent-solutions",
+   "name": "Vodafone Intelligent Solutions (VOIS) Budapest",
+   "sector": "SSC",
+   "confidence": "high",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://karrier.mavcsoport.hu/allasajanlataink?combine_keyword={kw}",
+   "linkPattern": "/allasajanlataink/\\d+",
+   "slug": "volanbusz",
+   "name": "Volánbusz",
+   "sector": "közlekedés",
+   "confidence": "medium",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "html",
+   "url": "https://istyle.hu/karrier",
+   "slug": "istyle",
+   "name": "iStyle",
+   "sector": "retail",
+   "confidence": "low",
+   "added": "2026-10-15"
+  },
+  {
+   "ats": "render",
+   "url": "https://jobs.thyssenkrupp.com/hu",
+   "waitMs": 6000,
+   "filterHU": true,
+   "slug": "thyssenkrupp",
+   "name": "thyssenkrupp Budapest",
+   "sector": "ipar",
+   "confidence": "low",
+   "added": "2026-10-15"
   }
  ]
 }
