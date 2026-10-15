@@ -1,21 +1,24 @@
 name: allasgyujto
 on:
   schedule:
-    - cron: "40 3 * * *"   # naponta 03:40 UTC (5:40 / télen 4:40 Budapest), a reggeli ágensfutás előtt
+    - cron: "40 3 * * *"
   workflow_dispatch: {}
 permissions:
   contents: write
+defaults:
+  run:
+    working-directory: "allasgyujto (1)"
 jobs:
   collect:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with: { python-version: "3.12" }
       - run: pip install requests beautifulsoup4 lxml playwright && python -m playwright install --with-deps chromium
       - run: python collector.py --config companies.json --out out
-      - name: Eredmény mentése a tárolóba
+      - name: Eredmény mentése
         run: |
           git config user.name "allasgyujto-bot"
           git config user.email "allasgyujto-bot@users.noreply.github.com"
