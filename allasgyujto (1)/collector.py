@@ -34,8 +34,8 @@ from bs4 import BeautifulSoup
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/128.0 Safari/537.36 Allasgyujto/0.1")
 TIMEOUT = 25
-HU_RE = re.compile(r"budapest|hungary|magyarorsz|\bHU\b|debrecen|szeged|győr|gyor|pécs|pecs|"
-                   r"remote.{0,12}(hungary|hu)|törökbálint|budaörs|bicske|vecsés", re.I)
+HU_RE = re.compile(r"budapest|hungary|magyarorsz|\bHU\b|\bdebrecen|\bszeged|\bgyőr\b|\bgyor\b|\bpécs\b|\bpecs\b|"
+                   r"remote.{0,12}\b(hungary|hu)\b|törökbálint|budaörs|\bbicske|\bvecsés", re.I)
 # Vezetői + terület előszűrő (csak jelölés, nem dob el semmit: a döntés az ágenseké)
 LEAD_RE = re.compile(r"head|director|igazgat|vezet|lead|manager|chief|cmo|cdo|vp\b|owner|"
                      r"chapter|csoportvezet|osztályvezet", re.I)
@@ -76,8 +76,19 @@ class Fetcher:
                          headers={"Accept": "application/json", "Content-Type": "application/json"}, **kw)
 
 
+TITLE_CUT = re.compile(r"\s+(Location:|Category:|Helysz[ií]n:|Kateg[oó]ria:|Posted|Közzétéve).*$|\s+Budapest\s*,.*$", re.I)
+TITLE_PREFIX = re.compile(r"^(Save job|Save for Later|Mentés|Oszd meg[^:]*:)\s*", re.I)
+
+
+def clean_title(t):
+    t = html.unescape(re.sub(r"\s+", " ", t or "")).strip()
+    t = TITLE_PREFIX.sub("", t)
+    t = TITLE_CUT.sub("", t).strip(" ,|-")
+    return t
+
+
 def job(company, title, url, location="", ad_id="", posted="", extra=None):
-    title = html.unescape(re.sub(r"\s+", " ", title or "")).strip()
+    title = clean_title(title)
     location = html.unescape(re.sub(r"\s+", " ", location or "")).strip()
     j = {"company": company, "title": title, "url": url, "location": location,
          "adId": str(ad_id or ""), "postedAt": posted or "",
@@ -97,10 +108,10 @@ def ad_workday(f: Fetcher, c: dict, kws: list[str]) -> list[dict]:
     site = parts[-1] if parts and not re.fullmatch(r"[a-z]{2}-[A-Z]{2}", parts[-1]) else parts[0]
     api = f"https://{u.netloc}/wday/cxs/{tenant}/{site}/jobs"
     out, seen = [], set()
-    for kw in kws:
+    for kw in list(kws) + ["Hungary", "Budapest"]:
         for offset in range(0, 200, 20):
             data = f.post_json(api, {"appliedFacets": {}, "limit": 20, "offset": offset,
-                                     "searchText": f"{kw} {c.get('locationHint', 'Hungary')}".strip()}).json()
+                                     "searchText": kw}).json()
             posts = data.get("jobPostings", [])
             for p in posts:
                 path = p.get("externalPath", "")
@@ -179,11 +190,19 @@ def ad_recruitee(f, c, kws):
 
 
 def ad_personio(f, c, kws):
-    root = ET.fromstring(f.get(f"https://{c['id']}.jobs.personio.com/xml").content)
+    last = None
+    for host in (f"{c['id']}.jobs.personio.com", f"{c['id']}.jobs.personio.de"):
+        try:
+            root = ET.fromstring(f.get(f"https://{host}/xml?language=en").content)
+            break
+        except Exception as e:  # noqa: BLE001
+            last = e
+    else:
+        raise last
     out = []
     for p in root.iter("position"):
         g = lambda t: (p.findtext(t) or "")
-        out.append(job(c["name"], g("name"), f"https://{c['id']}.jobs.personio.com/job/{g('id')}",
+        out.append(job(c["name"], g("name"), f"https://{host}/job/{g('id')}",
                        g("office"), g("id"), g("createdAt")))
     return out
 
@@ -244,7 +263,11 @@ def ad_successfactors(f, c, kws):
                     continue
                 seen.add(href)
                 loc = (r.select_one(".jobLocation") or r.select_one("[data-col='location']") or a)
-                out.append(job(c["name"], a.get_text(), href, loc.get_text(" "),
+                ltxt = loc.get_text(" ")
+                cc = re.search(r",\s*([A-Z]{2})\b", ltxt)
+                if cc and cc.group(1) != "HU" and not HU_RE.search(ltxt):
+                    continue
+                out.append(job(c["name"], a.get_text(), href, ltxt,
                                (re.findall(r"/(\d{6,})/?", href) or [""])[-1],
                                (r.select_one(".jobDate") or a).get_text(" ") if r.select_one(".jobDate") else ""))
             if len(rows) < 25:
@@ -283,6 +306,14 @@ def ad_phenom(f, c, kws):
     return out
 
 
+NAV_RE = re.compile(r"^(skip to|previous|next|show all|back to top|jobs you|english|français|deutsch|magyar|"
+                    r"search|keres[eé]s|összes|all jobs|view all|load more|tov[aá]bb|vissza|bejelentkez|login|"
+                    r"sign in|apply now|jelentkez[eé]s|details|r[eé]szletek)\b", re.I)
+FOREIGN_RE = re.compile(r"\b(Korea|India|Poland|Polska|Romania|Rom[aâ]nia|Czech|Slovakia|Germany|Deutschland|"
+                        r"France|Sweden|Spain|Italy|Portugal|Mexico|Brazil|China|Malaysia|Philippines|"
+                        r"United States|USA|United Kingdom|Ireland|Austria|Croatia|Serbia|Bulgaria)\b")
+
+
 def ad_html_links(f, c, kws, html_text=None):
     """Általános: a megadott lista/keresőoldal linkjei, amelyek mintája (linkPattern) illeszkedik."""
     out, seen = [], set()
@@ -294,7 +325,9 @@ def ad_html_links(f, c, kws, html_text=None):
         for a in soup.find_all("a", href=True):
             href = urljoin(url, a["href"])
             t = a.get_text(" ", strip=True)
-            if not pat.search(href) or href in seen or len(t) < 4:
+            if not pat.search(href) or href in seen or len(t) < 4 or NAV_RE.search(t):
+                continue
+            if FOREIGN_RE.search(t) and not HU_RE.search(t):
                 continue
             seen.add(href)
             ctx = a.find_parent(["li", "tr", "article", "div"])
