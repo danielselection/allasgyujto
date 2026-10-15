@@ -5,23 +5,30 @@ on:
   workflow_dispatch: {}
 permissions:
   contents: write
+concurrency:
+  group: allasgyujto
+  cancel-in-progress: false
 defaults:
   run:
     working-directory: "allasgyujto (1)"
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with: { python-version: "3.12" }
       - run: pip install requests beautifulsoup4 lxml playwright && python -m playwright install --with-deps chromium
-      - run: python collector.py --config companies.json --out out
+      - name: Gyűjtés
+        run: mkdir -p out && python -u collector.py --config companies.json --out out 2>&1 | tee out/run.log; exit ${PIPESTATUS[0]}
+        shell: bash
+        continue-on-error: true
       - name: Eredmény mentése
         run: |
           git config user.name "allasgyujto-bot"
           git config user.email "allasgyujto-bot@users.noreply.github.com"
           git add out/
           git commit -m "napi gyűjtés $(date -u +%F)" || echo "nincs változás"
+          git pull --rebase -X theirs || true
           git push
