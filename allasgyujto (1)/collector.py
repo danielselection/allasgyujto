@@ -39,6 +39,8 @@ HU_RE = re.compile(r"budapest|hungary|magyarorsz|\bHU\b|\bdebrecen|\bszeged|\bgy
 # Vezetői + terület előszűrő (csak jelölés, nem dob el semmit: a döntés az ágenseké)
 LEAD_RE = re.compile(r"head|director|igazgat|vezet|lead|manager|chief|cmo|cdo|vp\b|owner|"
                      r"chapter|csoportvezet|osztályvezet", re.I)
+HU_URL_RE = re.compile(r"budapest|hungary|magyarorszag", re.I)  # URL-ben csak ezek számítanak (PECS ≠ Pécs)
+MULTI_LOC_RE = re.compile(r"\d+\s+(Locations?|telephely|Standorte?|helysz[ií]n|lokalit)", re.I)
 AREA_RE = re.compile(r"marketing|brand|márka|kommunik|communicat|digital|digitál|growth|"
                      r"performance|e-?commerce|omnichannel|crm|loyalty|lifecycle|martech|"
                      r"customer|ügyfél|channel|csatorn|product marketing|ai\b|transform|"
@@ -119,7 +121,7 @@ def ad_workday(f: Fetcher, c: dict, kws: list[str]) -> list[dict]:
                     continue
                 seen.add(path)
                 loc = p.get("locationsText", "")
-                if not HU_RE.search(loc + " " + path) and re.search(r"\d+\s+Locations", loc):
+                if MULTI_LOC_RE.search(loc):
                     try:  # több helyszínes: részletek
                         d = f.get(f"https://{u.netloc}/wday/cxs/{tenant}/{site}{path}",
                                   headers={"Accept": "application/json"}).json()
@@ -127,7 +129,7 @@ def ad_workday(f: Fetcher, c: dict, kws: list[str]) -> list[dict]:
                         loc = "; ".join([info.get("location", "")] + info.get("additionalLocations", []))
                     except Exception:
                         pass
-                if HU_RE.search(loc + " " + path):
+                if (HU_RE.search(loc) and not MULTI_LOC_RE.search(loc)) or HU_URL_RE.search(path):
                     rid = (p.get("bulletFields") or [""])[0]
                     out.append(job(c["name"], p.get("title"), f"https://{u.netloc}/{site}{path}",
                                    loc, rid, p.get("postedOn", "")))
@@ -238,7 +240,7 @@ def ad_sitemap(f, c, kws):
     out = []
     for loc in root.iter(f"{ns}loc"):
         u = loc.text or ""
-        if not HU_RE.search(u):
+        if not HU_URL_RE.search(u):
             continue
         slug = urlparse(u).path.rstrip("/").split("/")[-1]
         title = re.sub(r"[-_]+", " ", re.sub(r"_?R?\d{5,}.*$", "", slug)).strip()
@@ -343,19 +345,17 @@ _PW = None
 
 
 def render(url: str, wait_ms: int = 6000) -> str:
-    """Fej nélküli Chromium (Playwright). Csak a JS-es oldalakhoz."""
-    global _PW
+    """Fej nélküli Chromium (Playwright). Csak a JS-es oldalakhoz. Szálanként saját példány."""
     from playwright.sync_api import sync_playwright
-    if _PW is None:
-        _PW = sync_playwright().start()
-    b = _PW.chromium.launch(headless=True)
-    try:
-        pg = b.new_page(user_agent=UA, locale="hu-HU")
-        pg.goto(url, wait_until="domcontentloaded", timeout=45000)
-        pg.wait_for_timeout(wait_ms)
-        return pg.content()
-    finally:
-        b.close()
+    with sync_playwright() as pw:
+        b = pw.chromium.launch(headless=True)
+        try:
+            pg = b.new_page(user_agent=UA, locale="hu-HU")
+            pg.goto(url, wait_until="domcontentloaded", timeout=45000)
+            pg.wait_for_timeout(wait_ms)
+            return pg.content()
+        finally:
+            b.close()
 
 
 def ad_render(f, c, kws):
@@ -432,11 +432,15 @@ def main():
             j, r = fu.result()
             all_jobs += j
             reports.append(r)
-    for c in heavy + [c for c in light if any(r["slug"] == c["slug"] and r["status"] != "ok" for r in reports)
-                      and c["ats"] in FALLBACK and not a.no_render]:
-        j, r = run_company(c, c.get("keywords", base_kws), not a.no_render)
-        reports = [x for x in reports if x["slug"] != c["slug"]] + [r]
-        all_jobs = [x for x in all_jobs if x["slug"] != c["slug"]] + j
+    second = heavy + [c for c in light if any(r["slug"] == c["slug"] and r["status"] != "ok" for r in reports)
+                      and c["ats"] in FALLBACK and not a.no_render]
+    with cf.ThreadPoolExecutor(4) as ex:  # böngészős kör: 4 párhuzamos Chromium
+        futs = {ex.submit(run_company, c, c.get("keywords", base_kws), not a.no_render): c for c in second}
+        for fu in cf.as_completed(futs):
+            c = futs[fu]
+            j, r = fu.result()
+            reports = [x for x in reports if x["slug"] != c["slug"]] + [r]
+            all_jobs = [x for x in all_jobs if x["slug"] != c["slug"]] + j
 
     ts = now_iso()
     for j in all_jobs:
