@@ -19,5 +19,5 @@ Kimenet: `out/jobs.json` (minden magyarországi nyitott állás), `out/diff.json
 állások), `out/report.json` (cégenkénti állapot).
 
 Fájlok: `collector.py` (gyűjtő), `build_config.py` (a `companies` gyűjteményből ATS-felismerés),
-`companies.json` (generált konfiguráció), `test_offline.py` (hálózat nélküli tesztek),
+`sync_config.py` (napi, biztonságos frissítés: csak az új aktív cégeket veszi fel, a kézzel hangolt bejegyzéseket nem bántja; az esti ágensfutás hívja), `companies.json` (konfiguráció), `test_offline.py` (hálózat nélküli tesztek),
 `.github/workflows/collect.yml` (napi futtatás GitHub Actionsben; az eredmény az `out/` mappába kerül, az ágensek a raw.githubusercontent.com címről olvassák).

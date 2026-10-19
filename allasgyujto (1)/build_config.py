@@ -23,6 +23,10 @@ def detect(d: dict) -> dict | None:
         return None
     if m := re.search(r"https://([\w-]+\.wd\d+\.myworkdayjobs\.com)/(?:[a-z]{2}-[A-Z]{2}/)?([\w-]+)", allu):
         return {"ats": "workday", "url": f"https://{m.group(1)}/{m.group(2)}"}
+    if isinstance(d.get("collector"), dict) and d["collector"].get("ats"):
+        return dict(d["collector"])
+    if m := re.search(r"jobs\.(eu\.)?lever\.co/([\w-]+)", allu):
+        return {"ats": "lever", "id": m.group(2), **({"region": "eu"} if m.group(1) else {})}
     if m := re.search(r"smartrecruiters\.com/v1/companies/([\w-]+)", allu):
         return {"ats": "smartrecruiters", "id": m.group(1)}
     if m := re.search(r"greenhouse\.io/([\w-]+)", allu):

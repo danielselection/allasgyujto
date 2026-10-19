@@ -2366,6 +2366,118 @@
    "sector": "IT",
    "confidence": "high",
    "added": "2026-10-15b"
+  },
+  {
+   "slug": "continental",
+   "name": "Continental",
+   "ats": "html",
+   "url": "https://jobs.continental.com/en/",
+   "filterHU": true,
+   "liked": false,
+   "target": false,
+   "added": "2026-10-19"
+  },
+  {
+   "slug": "dm",
+   "name": "dm",
+   "ats": "html",
+   "url": "https://karrier.dm.hu/allasok/kozpont",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "added": "2026-10-19"
+  },
+  {
+   "slug": "engie-hungaria",
+   "name": "ENGIE Hungária",
+   "ats": "html",
+   "url": "https://engie.hu/rolunk/poziciok/",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "added": "2026-10-19"
+  },
+  {
+   "slug": "fotav",
+   "name": "Főtáv",
+   "ats": "render",
+   "url": "https://karrier.budapestikozmuvek.hu/DataCenter/Registration/JobAdvertisements/allasok",
+   "waitMs": 6000,
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "added": "2026-10-19"
+  },
+  {
+   "slug": "magyar-nemzeti-bank",
+   "name": "Magyar Nemzeti Bank",
+   "ats": "html",
+   "url": "https://toborzas.mnb.hu/allasok",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "added": "2026-10-19"
+  },
+  {
+   "slug": "obi",
+   "name": "OBI",
+   "ats": "html",
+   "url": "https://job.obi.hu/hu/jobs",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "added": "2026-10-19"
+  },
+  {
+   "slug": "praktiker",
+   "name": "Praktiker",
+   "ats": "html",
+   "url": "https://karrier.praktiker.hu/allasaink",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "added": "2026-10-19"
+  },
+  {
+   "slug": "schneider-electric",
+   "name": "Schneider Electric",
+   "ats": "html",
+   "url": "https://careers.se.com/jobs?keywords={kw}&location=Hungary",
+   "filterHU": true,
+   "liked": false,
+   "target": false,
+   "added": "2026-10-19"
+  },
+  {
+   "slug": "shapr3d",
+   "name": "Shapr3D",
+   "ats": "html",
+   "url": "https://careers.speedinvest.com/companies/shapr3d",
+   "filterHU": true,
+   "liked": false,
+   "target": false,
+   "added": "2026-10-19"
+  },
+  {
+   "slug": "toyota-central-europe",
+   "name": "Toyota Central Europe",
+   "ats": "html",
+   "url": "https://experienced-toyota-europe.icims.com/jobs/search?pr=0",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "added": "2026-10-19"
+  },
+  {
+   "slug": "union-biztosito",
+   "name": "Union Biztosító",
+   "ats": "render",
+   "url": "https://union.karrierportal.hu/allasok",
+   "waitMs": 6000,
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "added": "2026-10-19"
   }
  ]
 }
