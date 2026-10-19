@@ -1,0 +1,4 @@
+{
+ "note": "A cégek saját keresőiben (SuccessFactors, Phenom, SmartRecruiters, kereső-URL-es oldalak) futtatott kulcsszavak. A Workday-nél a Hungary/Budapest teljes lista is lefut. Bővítve 2026-10-19: kommunikáció, ügyfélkapcsolat, e-commerce, AI, közszféra-vezetői címek.",
+ "base": ["marketing", "digital", "CRM", "brand", "head", "director", "kommunikáció", "communication", "e-commerce", "customer", "vezető", "AI"]
+}

@@ -41,7 +41,9 @@ REL_AREA = re.compile(
     r"marketing|brand|márka|marka|kommunik|communicat|\bpr\b|digital|digitál|digital|growth|performance|"
     r"e-?commerce|webshop|omnichannel|crm|loyalty|lifecycle|martech|customer experience|\bcx\b|"
     r"ügyfélélmény|ugyfelelmeny|customer journey|product marketing|\bai\b|artificial intelligence|"
-    r"transform|media|média|content|social", re.I)
+    r"transform|media|média|content|social|ügyfélszolgálat|ugyfelszolgalat|ügyfélkapcsolat|customer service|customer care|"
+    r"contact cent|chatbot|conversational|automation|automatizál|seo\b|\bsearch\b|\bweb\b|online|lead gen|demand gen|"
+    r"b2b marketing|event|rendezvény|sajtó|press|analytics|insight|loyalty|sales enablement|digitaliz|e-ügyintézés", re.I)
 REL_LEAD = re.compile(
     r"head|director|igazgat|vezet|\blead\b|leader|chief|\bcmo\b|\bcdo\b|\bvp\b|vice president|"
     r"manager|menedzser|owner|chapter|csoportvezet|osztályvezet|főosztály", re.I)
