@@ -148,7 +148,8 @@ def observed(c: dict) -> tuple[list[tuple[dt.date, dt.date]], dt.date | None]:
     return segs, days[0]
 
 
-def compute(hist: dict, today: dt.date) -> dict:
+def compute(hist: dict, today: dt.date, meta: dict | None = None) -> dict:
+    meta = meta or {}
     by_co = defaultdict(list)
     for a in hist["ads"].values():
         by_co[a["slug"]].append(a)
@@ -181,16 +182,27 @@ def compute(hist: dict, today: dt.date) -> dict:
                        "seenAds": len(ads), "seenRel": len(rel_ads),
                        "lastRel": max((a.get("posted") or a["firstSeen"] for a in rel_ads), default=None),
                        "lastOk": max(c["okDays"])}
-    # populációs paraméterek: hirdetési ütem nyitott állásonként (méret szerinti prior)
-    tot_k = sum(s["k"] for s in stats.values())
-    tot_expo_open = sum(s["expo"] * (s["open"] + 1) for s in stats.values()) or 1
-    rate_per_open = tot_k / tot_expo_open                         # új hirdetés / nap / (nyitott+1)
-    g_share = (sum(s["seenRel"] for s in stats.values()) + 1) / (sum(s["seenAds"] for s in stats.values()) + 20)
+    # populációs paraméterek: hirdetési ütem nyitott állásonként (méret szerinti prior),
+    # szegmensenként (pl. „allami”), ha a szegmensben elég cég van; különben a teljes minta
+    def params(group):
+        tk = sum(s["k"] for s in group)
+        te = sum(s["expo"] * (s["open"] + 1) for s in group) or 1
+        sh = (sum(s["seenRel"] for s in group) + 1) / (sum(s["seenAds"] for s in group) + 20)
+        return tk / te, sh
+    rate_per_open, g_share = params(list(stats.values()))
+    seg_of = {k: (meta.get(k) or {}).get("segment") or "" for k in stats}
+    seg_params = {}
+    for seg in {v for v in seg_of.values() if v}:
+        grp = [stats[k] for k in stats if seg_of[k] == seg]
+        if len(grp) >= 8:
+            seg_params[seg] = params(grp)
     out = []
     for slug, s in stats.items():
-        mu = rate_per_open * (s["open"] + 1)                      # a cég prior napi üteme
+        seg = seg_of.get(slug, "")
+        r_open, sh0 = seg_params.get(seg, (rate_per_open, g_share))
+        mu = r_open * (s["open"] + 1)                             # a cég prior napi üteme
         lam = (mu * PRIOR_DAYS + s["k"]) / (PRIOR_DAYS + s["expo"])
-        share = (SHARE_PRIOR * g_share + s["seenRel"]) / (SHARE_PRIOR + s["seenAds"])
+        share = (SHARE_PRIOR * sh0 + s["seenRel"]) / (SHARE_PRIOR + s["seenAds"])
         lam_rel = lam * share
         p = lambda l, t: 1 - math.exp(-l * t)  # noqa: E731
         conf = "magas" if s["expo"] >= 90 else "közepes" if s["expo"] >= 30 else "alacsony"
@@ -204,7 +216,8 @@ def compute(hist: dict, today: dt.date) -> dict:
         if s["seenRel"]:
             drivers.append(f"a látott hirdetések {round(100 * s['seenRel'] / max(1, s['seenAds']))}%-a releváns")
         out.append({
-            "slug": slug, "name": s["name"], "open": s["open"], "openRel": s["openRel"],
+            "slug": slug, "name": s["name"], "segment": seg, "watchOnly": bool((meta.get(slug) or {}).get("watchOnly")),
+            "open": s["open"], "openRel": s["openRel"],
             "newObserved": s["k"], "newRelObserved": s["kRel"], "exposureDays": s["expo"],
             "ratePerMonth": round(lam * 30, 2), "relRatePerMonth": round(lam_rel * 30, 3),
             "pAny30": round(p(lam, 30), 3), "pRel30": round(p(lam_rel, 30), 3), "pRel90": round(p(lam_rel, 90), 3),
@@ -216,7 +229,10 @@ def compute(hist: dict, today: dt.date) -> dict:
             "method": "Gamma–Poisson ütembecslés cégenként, méret szerinti priorral; releváns = "
                       "marketing/digitális/CRM/CX/AI terület + vezetői cím. P = 1 − e^(−λT).",
             "population": {"companies": len(out), "ratePerOpenPerMonth": round(rate_per_open * 30, 4),
-                           "relShare": round(g_share, 4), "days": len(hist.get("days", []))},
+                           "relShare": round(g_share, 4), "days": len(hist.get("days", [])),
+                           "segments": {k: {"companies": sum(1 for x in seg_of.values() if x == k),
+                                            "ratePerOpenPerMonth": round(v[0] * 30, 4), "relShare": round(v[1], 4)}
+                                        for k, v in seg_params.items()}},
             "companies": out}
 
 
@@ -253,6 +269,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="out")
     ap.add_argument("--bootstrap-git", action="store_true")
+    ap.add_argument("--config", default="companies.json")
     a = ap.parse_args()
     out = Path(a.out)
     hist = load(out / "history.json", {"companies": {}, "ads": {}, "days": []})
@@ -263,7 +280,8 @@ def main():
     if rep:
         merge_snapshot(hist, jobs, rep)
     today = d(rep["generatedAt"]) if rep else dt.date.today()
-    fc = compute(hist, today)
+    cfg = load(Path(a.config), {"companies": []})
+    fc = compute(hist, today, {c["slug"]: c for c in cfg.get("companies", [])})
     log = load(out / "forecast_log.json", [])
     if not log or (today - d(log[-1]["date"])).days >= 7:
         log.append({"date": today.isoformat(), "p": {c["slug"]: c["pRel30"] for c in fc["companies"]}})

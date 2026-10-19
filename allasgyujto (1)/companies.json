@@ -113,7 +113,8 @@
    "waitMs": 6000,
    "filterHU": false,
    "liked": false,
-   "target": false
+   "target": false,
+   "segment": "allami"
   },
   {
    "slug": "bmw-group-hungary",
@@ -166,7 +167,8 @@
    "url": "https://karrier.bud.hu/",
    "filterHU": false,
    "liked": false,
-   "target": false
+   "target": false,
+   "segment": "allami"
   },
   {
    "slug": "cib-bank",
@@ -212,7 +214,8 @@
    "waitMs": 6000,
    "filterHU": false,
    "liked": false,
-   "target": false
+   "target": false,
+   "segment": "allami"
   },
   {
    "slug": "dreher",
@@ -290,7 +293,8 @@
    "url": "https://exim.hu/aktualis-karrierlehetosegeink/",
    "filterHU": false,
    "liked": false,
-   "target": false
+   "target": false,
+   "segment": "allami"
   },
   {
    "slug": "foodora",
@@ -361,7 +365,8 @@
    "url": "https://hepa.hu/karrier",
    "filterHU": false,
    "liked": false,
-   "target": false
+   "target": false,
+   "segment": "allami"
   },
   {
    "slug": "hilti",
@@ -416,7 +421,8 @@
    "url": "https://karrier.posta.hu/allasok",
    "filterHU": false,
    "liked": false,
-   "target": false
+   "target": false,
+   "segment": "allami"
   },
   {
    "slug": "magyar-suzuki",
@@ -445,7 +451,8 @@
    "waitMs": 6000,
    "filterHU": false,
    "liked": false,
-   "target": false
+   "target": false,
+   "segment": "allami"
   },
   {
    "slug": "mav-csoport",
@@ -454,7 +461,8 @@
    "url": "https://karrier.mavcsoport.hu/allasajanlataink",
    "filterHU": false,
    "liked": false,
-   "target": false
+   "target": false,
+   "segment": "allami"
   },
   {
    "slug": "mbh-bank",
@@ -508,7 +516,8 @@
    "waitMs": 6000,
    "filterHU": false,
    "liked": false,
-   "target": false
+   "target": false,
+   "segment": "allami"
   },
   {
    "slug": "mol-csoport",
@@ -533,7 +542,8 @@
    "url": "https://mtva.hu/karrier/",
    "filterHU": false,
    "liked": false,
-   "target": false
+   "target": false,
+   "segment": "allami"
   },
   {
    "slug": "mvm-csoport",
@@ -543,7 +553,8 @@
    "waitMs": 6000,
    "filterHU": false,
    "liked": false,
-   "target": false
+   "target": false,
+   "segment": "allami"
   },
   {
    "slug": "nemzeti-kommunikacios-hivatal",
@@ -552,7 +563,8 @@
    "url": "https://nkoh.kormany.hu/karrier",
    "filterHU": false,
    "liked": false,
-   "target": false
+   "target": false,
+   "segment": "allami"
   },
   {
    "slug": "nestle",
@@ -739,7 +751,8 @@
    "ats": "successfactors",
    "url": "https://karrier.szerencsejatek.hu/search/?q={kw}",
    "liked": false,
-   "target": false
+   "target": false,
+   "segment": "allami"
   },
   {
    "slug": "tesco",
@@ -984,7 +997,8 @@
    "name": "Budapest Főváros Önkormányzata",
    "sector": "állami",
    "confidence": "medium",
-   "added": "2026-10-15"
+   "added": "2026-10-15",
+   "segment": "allami"
   },
   {
    "ats": "html",
@@ -994,7 +1008,8 @@
    "name": "Budapesti Corvinus Egyetem",
    "sector": "egyetem",
    "confidence": "high",
-   "added": "2026-10-15"
+   "added": "2026-10-15",
+   "segment": "allami"
   },
   {
    "ats": "html",
@@ -1004,7 +1019,8 @@
    "name": "Budapesti Közlekedési Zrt. (BKV)",
    "sector": "állami",
    "confidence": "high",
-   "added": "2026-10-15"
+   "added": "2026-10-15",
+   "segment": "allami"
   },
   {
    "ats": "html",
@@ -1517,7 +1533,8 @@
    "name": "Magyar Államkincstár",
    "sector": "állami",
    "confidence": "high",
-   "added": "2026-10-15"
+   "added": "2026-10-15",
+   "segment": "allami"
   },
   {
    "ats": "render",
@@ -1627,7 +1644,8 @@
    "name": "Nemzeti Adó- és Vámhivatal",
    "sector": "állami",
    "confidence": "low",
-   "added": "2026-10-15"
+   "added": "2026-10-15",
+   "segment": "allami"
   },
   {
    "ats": "render",
@@ -1863,7 +1881,8 @@
    "name": "Volánbusz",
    "sector": "közlekedés",
    "confidence": "medium",
-   "added": "2026-10-15"
+   "added": "2026-10-15",
+   "segment": "allami"
   },
   {
    "ats": "html",
@@ -1946,7 +1965,8 @@
    "name": "Budapesti Gazdasági Egyetem",
    "sector": "egyetem",
    "confidence": "high",
-   "added": "2026-10-15b"
+   "added": "2026-10-15b",
+   "segment": "allami"
   },
   {
    "ats": "phenom",
@@ -2179,7 +2199,8 @@
    "name": "Müpa Budapest",
    "sector": "kultúra",
    "confidence": "low",
-   "added": "2026-10-15b"
+   "added": "2026-10-15b",
+   "segment": "allami"
   },
   {
    "ats": "render",
@@ -2272,7 +2293,8 @@
    "name": "Hungaroring Sport",
    "sector": "szórakoztatás",
    "confidence": "medium",
-   "added": "2026-10-15b"
+   "added": "2026-10-15b",
+   "segment": "allami"
   },
   {
    "ats": "html",
@@ -2283,7 +2305,8 @@
    "name": "Magyar Állami Operaház",
    "sector": "kultúra",
    "confidence": "low",
-   "added": "2026-10-15b"
+   "added": "2026-10-15b",
+   "segment": "allami"
   },
   {
    "ats": "html",
@@ -2406,7 +2429,8 @@
    "filterHU": false,
    "liked": false,
    "target": false,
-   "added": "2026-10-19"
+   "added": "2026-10-19",
+   "segment": "allami"
   },
   {
    "slug": "magyar-nemzeti-bank",
@@ -2416,7 +2440,8 @@
    "filterHU": false,
    "liked": false,
    "target": false,
-   "added": "2026-10-19"
+   "added": "2026-10-19",
+   "segment": "allami"
   },
   {
    "slug": "obi",
@@ -2478,6 +2503,372 @@
    "liked": false,
    "target": false,
    "added": "2026-10-19"
+  },
+  {
+   "slug": "alfoldviz",
+   "name": "Alföldvíz",
+   "ats": "html",
+   "url": "https://karrier.alfoldviz.hu/",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "bkv",
+   "name": "BKV",
+   "ats": "html",
+   "url": "https://karrier.bkv.hu/allasajanlatok",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "budapest-gyogyfurdoi-es-hevizei",
+   "name": "Budapest Gyógyfürdői és Hévizei",
+   "ats": "render",
+   "url": "https://bgyh.hrmaster.hu/DataCenter/Registration/JobAdvertisements/allasok",
+   "waitMs": 6000,
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "budapesti-muszaki-es-gazdasagtudomanyi-egyetem",
+   "name": "Budapesti Műszaki és Gazdaságtudományi Egyetem",
+   "ats": "html",
+   "url": "https://www.bme.hu/karrierpalyazatok",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "del-pesti-centrumkorhaz-orszagos-hematologiai-es-infektologiai-intezet",
+   "name": "Dél-pesti Centrumkórház – Országos Hematológiai és Infektológiai Intézet",
+   "ats": "html",
+   "url": "https://dpc.euintezmeny.hu/tartalmak/allaslehetosegek/allaslehetosegek",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "dmrv",
+   "name": "DMRV Duna Menti Regionális Vízmű",
+   "ats": "html",
+   "url": "https://www.dmrvzrt.hu/hu/karrier",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "eotvos-lorand-tudomanyegyetem",
+   "name": "Eötvös Loránd Tudományegyetem",
+   "ats": "html",
+   "url": "https://www.elte.hu/allaspalyazatok",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "eszak-budai-szent-janos-centrumkorhaz",
+   "name": "Észak-budai Szent János Centrumkórház",
+   "ats": "html",
+   "url": "https://www.janoskorhaz.hu/karrier/",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "fovarosi-csatornazasi-muvek",
+   "name": "Fővárosi Csatornázási Művek",
+   "ats": "html",
+   "url": "https://karrier.fcsm.hu/",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "fovarosi-vizmuvek",
+   "name": "Fővárosi Vízművek",
+   "ats": "html",
+   "url": "https://vizmuvek.hu/hu/karrier/aktualis-poziciok",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "gazdasagi-versenyhivatal",
+   "name": "Gazdasági Versenyhivatal",
+   "ats": "html",
+   "url": "https://gvh.hu/karrier/allaspalyazatok",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "gysev",
+   "name": "GYSEV",
+   "ats": "render",
+   "url": "https://gysev.karrierportal.hu/allasok",
+   "waitMs": 6000,
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "heim-pal-gyermekkorhaz",
+   "name": "Heim Pál Országos Gyermekgyógyászati Intézet",
+   "ats": "html",
+   "url": "https://heimpalkorhaz.hu/allasajanlatok",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "iparmuveszeti-muzeum",
+   "name": "Iparművészeti Múzeum",
+   "ats": "html",
+   "url": "https://www.imm.hu/hu/contents/104,%C3%81ll%C3%A1shirdet%C3%A9sek",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "kozbeszerzesi-hatosag",
+   "name": "Közbeszerzési Hatóság",
+   "ats": "html",
+   "url": "https://www.kozbeszerzes.hu/karrier/",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "lechner-tudaskozpont",
+   "name": "Lechner Tudásközpont",
+   "ats": "html",
+   "url": "https://lechnerkozpont.hu/karrier",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "magyar-kozut",
+   "name": "Magyar Közút",
+   "ats": "html",
+   "url": "https://karrier.kozut.hu",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "magyar-nemzeti-muzeum",
+   "name": "Magyar Nemzeti Múzeum",
+   "ats": "html",
+   "url": "https://mnm.hu/allaslehetoseg",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "magyar-termeszettudomanyi-muzeum",
+   "name": "Magyar Természettudományi Múzeum",
+   "ats": "html",
+   "url": "https://www.nhmus.hu/karrier/",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "nemzeti-adatvedelmi-es-informacioszabadsag-hatosag",
+   "name": "Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)",
+   "ats": "html",
+   "url": "https://naih.hu/allaspalyazat",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "nemzeti-media-es-hirkozlesi-hatosag",
+   "name": "Nemzeti Média- és Hírközlési Hatóság (NMHH)",
+   "ats": "html",
+   "url": "https://nmhh.hu/allaslehetosegek",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "neprajzi-muzeum",
+   "name": "Néprajzi Múzeum",
+   "ats": "html",
+   "url": "https://www.neprajz.hu/allashirdetes",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "obudai-egyetem",
+   "name": "Óbudai Egyetem",
+   "ats": "html",
+   "url": "https://uni-obuda.hu/allaspalyazatok/",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "orszagos-mentoszolgalat",
+   "name": "Országos Mentőszolgálat",
+   "ats": "html",
+   "url": "https://www.mentok.hu/karrier/",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "orszagos-onkologiai-intezet",
+   "name": "Országos Onkológiai Intézet",
+   "ats": "html",
+   "url": "https://onkol.hu/karrier/",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "paks-ii-atomeromu",
+   "name": "Paks II. Atomerőmű",
+   "ats": "html",
+   "url": "https://karrier.paks2.hu",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "semmelweis-egyetem",
+   "name": "Semmelweis Egyetem",
+   "ats": "html",
+   "url": "https://semmelweis.hu/human/category/karrier/",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
+  },
+  {
+   "slug": "szabalyozott-tevekenysegek-felugyeleti-hatosaga",
+   "name": "Szabályozott Tevékenységek Felügyeleti Hatósága",
+   "ats": "html",
+   "url": "https://sztfh.hu/karrier/",
+   "filterHU": false,
+   "liked": false,
+   "target": false,
+   "watchOnly": false,
+   "segment": "allami",
+   "added": "2026-10-19",
+   "addedBy": "curator"
   }
  ]
 }
