@@ -21,3 +21,5 @@ Kimenet: `out/jobs.json` (minden magyarországi nyitott állás), `out/diff.json
 Fájlok: `collector.py` (gyűjtő), `build_config.py` (a `companies` gyűjteményből ATS-felismerés),
 `sync_config.py` (napi, biztonságos frissítés: csak az új aktív cégeket veszi fel, a kézzel hangolt bejegyzéseket nem bántja; az esti ágensfutás hívja), `companies.json` (konfiguráció), `test_offline.py` (hálózat nélküli tesztek),
 `.github/workflows/collect.yml` (napi futtatás GitHub Actionsben; az eredmény az `out/` mappába kerül, az ágensek a raw.githubusercontent.com címről olvassák).
+
+Előrejelzés: `forecast.py` a gyűjtés után fut; a napi pillanatképekből előzményt épít (`out/history.json`), és cégenként becsli, mekkora eséllyel jelenik meg új (ill. releváns: marketing/digitális/CRM/CX/AI vezetői) hirdetés 30 és 90 napon belül (`out/forecast.json`). Hetente elmenti a jóslatokat (`out/forecast_log.json`), és 30 nap után visszaméri őket (Brier-pont, kalibráció).
