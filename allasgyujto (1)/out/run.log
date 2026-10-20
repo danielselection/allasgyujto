@@ -1,1 +1,2 @@
-{"summary": {"ok": 153, "empty": 90, "fail": 4}, "jobs": 1630, "new": 68, "disappeared": 47, "matches": 71}
+{"summary": {"ok": 164, "empty": 115, "fail": 7}, "jobs": 2276, "new": 825, "disappeared": 128, "matches": 76}
+{"companies": 175, "days": 6, "top": [["Wizz Air", 0.997], ["Yettel", 0.964], ["Diageo", 0.963], ["4iG", 0.938], ["MediaMarkt", 0.913]]}
