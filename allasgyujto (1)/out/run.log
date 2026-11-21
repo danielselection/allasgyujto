@@ -1,2 +1,2 @@
-{"summary": {"ok": 146, "empty": 112, "fail": 28}, "jobs": 1863, "new": 237, "disappeared": 371, "matches": 57}
-{"companies": 187, "days": 36, "top": [["Diageo", 0.93], ["Wizz Air", 0.929], ["Opella", 0.922], ["Yettel", 0.916], ["DEPT", 0.915]]}
+{"summary": {"ok": 148, "empty": 109, "fail": 29}, "jobs": 2086, "new": 350, "disappeared": 101, "matches": 69}
+{"companies": 187, "days": 37, "top": [["Wizz Air", 0.987], ["Diageo", 0.921], ["Opella", 0.914], ["Yettel", 0.91], ["DEPT", 0.905]]}
