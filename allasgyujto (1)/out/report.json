@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-24T14:36:40+00:00",
+ "generatedAt": "2026-11-25T13:48:29+00:00",
  "summary": {
-  "ok": 155,
-  "empty": 102,
-  "fail": 29
+  "ok": 157,
+  "empty": 103,
+  "fail": 26
  },
  "companies": [
   {
@@ -11,22 +11,22 @@
    "slug": "4ig",
    "ats": "successfactors",
    "status": "ok",
-   "count": 41,
+   "count": 43,
    "error": "",
    "method": "successfactors",
    "requests": 13,
-   "secs": 14.4
+   "secs": 15.1
   },
   {
    "company": "ABB",
    "slug": "abb",
    "ats": "phenom",
    "status": "ok",
-   "count": 7,
+   "count": 6,
    "error": "",
    "method": "phenom",
    "requests": 12,
-   "secs": 16.1
+   "secs": 14.0
   },
   {
    "company": "AbbVie",
@@ -37,7 +37,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.3
+   "secs": 8.0
   },
   {
    "company": "Accenture",
@@ -57,7 +57,7 @@
    "error": "",
    "method": "smartrecruiters",
    "requests": 12,
-   "secs": 12.3
+   "secs": 12.4
   },
   {
    "company": "AImotive",
@@ -68,29 +68,29 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.2
+   "secs": 1.3
   },
   {
    "company": "Aldi",
    "slug": "aldi",
    "ats": "html",
    "status": "ok",
-   "count": 1,
+   "count": 2,
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 2.2
+   "secs": 2.4
   },
   {
    "company": "Alfa Vienna Insurance Group",
    "slug": "alfa-vienna-insurance",
    "ats": "render",
    "status": "ok",
-   "count": 10,
+   "count": 13,
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 9.1
+   "secs": 9.2
   },
   {
    "company": "Alföldvíz",
@@ -101,7 +101,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 10.4
+   "secs": 10.5
   },
   {
    "company": "Allianz Hungária",
@@ -123,7 +123,7 @@
    "error": "",
    "method": "phenom",
    "requests": 360,
-   "secs": 531.8
+   "secs": 436.6
   },
   {
    "company": "ALTEO",
@@ -134,7 +134,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 9.9
+   "secs": 9.0
   },
   {
    "company": "Alza",
@@ -145,18 +145,18 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 6.7
+   "secs": 6.6
   },
   {
    "company": "AmRest (KFC, Starbucks)",
    "slug": "amrest",
    "ats": "successfactors",
    "status": "ok",
-   "count": 9,
+   "count": 8,
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 11.0
+   "secs": 10.9
   },
   {
    "company": "Árukereső (Heureka Group)",
@@ -167,16 +167,18 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 6.9
+   "secs": 6.6
   },
   {
    "company": "AstraZeneca",
    "slug": "astrazeneca",
    "ats": "workday",
-   "status": "fail",
-   "count": 0,
-   "error": "workday: HTTPError: 429 Client Error: Too Many Requests for url: https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/jobs",
-   "method": "workday"
+   "status": "ok",
+   "count": 7,
+   "error": "",
+   "method": "workday",
+   "requests": 150,
+   "secs": 178.1
   },
   {
    "company": "Auchan",
@@ -187,7 +189,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 9.0
+   "secs": 8.4
   },
   {
    "company": "Audi Hungaria",
@@ -198,7 +200,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 9.6
+   "secs": 9.3
   },
   {
    "company": "Avis Budget Group Budapest",
@@ -209,7 +211,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.6
+   "secs": 1.3
   },
   {
    "company": "Ayvens",
@@ -229,7 +231,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 11.6
+   "secs": 7.9
   },
   {
    "company": "Bauhaus",
@@ -240,7 +242,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 7.7
+   "secs": 7.5
   },
   {
    "company": "Bayer",
@@ -251,7 +253,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 99.4
+   "secs": 97.5
   },
   {
    "company": "Béres Gyógyszergyár",
@@ -262,29 +264,29 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 2.0
+   "secs": 1.9
   },
   {
    "company": "Betsson Group",
    "slug": "betsson",
    "ats": "html",
-   "status": "ok",
-   "count": 11,
+   "status": "empty",
+   "count": 0,
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 7.9
+   "secs": 6.7
   },
   {
    "company": "Biggeorge",
    "slug": "biggeorge",
    "ats": "render",
    "status": "ok",
-   "count": 1,
+   "count": 2,
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.2
+   "secs": 8.7
   },
   {
    "company": "Bitrise",
@@ -295,18 +297,18 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 7.5
+   "secs": 7.3
   },
   {
    "company": "BKK",
    "slug": "bkk",
    "ats": "render",
    "status": "ok",
-   "count": 18,
+   "count": 17,
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 9.6
+   "secs": 9.3
   },
   {
    "company": "BKV",
@@ -317,7 +319,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 2.0
+   "secs": 2.1
   },
   {
    "company": "Black Cell",
@@ -339,7 +341,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.6
+   "secs": 1.0
   },
   {
    "company": "Bluebird International",
@@ -350,7 +352,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 45.0
+   "secs": 9.9
   },
   {
    "company": "BMW Group Hungary",
@@ -372,7 +374,7 @@
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 14.1
+   "secs": 13.7
   },
   {
    "company": "Bolt",
@@ -383,18 +385,18 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.7
+   "secs": 1.8
   },
   {
    "company": "Bonafarm",
    "slug": "bonafarm",
    "ats": "successfactors",
    "status": "ok",
-   "count": 45,
+   "count": 46,
    "error": "",
    "method": "successfactors",
    "requests": 13,
-   "secs": 14.2
+   "secs": 14.9
   },
   {
    "company": "Borsodi Sörgyár (Molson Coors)",
@@ -405,7 +407,7 @@
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 12.1
+   "secs": 12.7
   },
   {
    "company": "Bosch",
@@ -416,7 +418,7 @@
    "error": "",
    "method": "smartrecruiters",
    "requests": 12,
-   "secs": 12.6
+   "secs": 12.7
   },
   {
    "company": "Boston Consulting Group",
@@ -427,7 +429,7 @@
    "error": "",
    "method": "phenom",
    "requests": 12,
-   "secs": 13.6
+   "secs": 13.9
   },
   {
    "company": "BP Business Service Centre Budapest",
@@ -447,7 +449,7 @@
    "error": "",
    "method": "html",
    "requests": 12,
-   "secs": 16.1
+   "secs": 15.9
   },
   {
    "company": "Budapest Airport",
@@ -458,7 +460,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.4
+   "secs": 8.2
   },
   {
    "company": "Budapest Gyógyfürdői és Hévizei",
@@ -469,7 +471,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.4
+   "secs": 8.2
   },
   {
    "company": "Budapesti Corvinus Egyetem",
@@ -480,7 +482,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 9.2
+   "secs": 9.3
   },
   {
    "company": "Budapesti Gazdasági Egyetem",
@@ -491,7 +493,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 9.2
+   "secs": 8.2
   },
   {
    "company": "Budapesti Közlekedési Zrt. (BKV)",
@@ -502,7 +504,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 2.0
+   "secs": 2.3
   },
   {
    "company": "Budapesti Metropolitan Egyetem",
@@ -513,14 +515,14 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 10.2
+   "secs": 8.5
   },
   {
    "company": "Budapesti Műszaki és Gazdaságtudományi Egyetem",
    "slug": "budapesti-muszaki-es-gazdasagtudomanyi-egyetem",
    "ats": "html",
    "status": "ok",
-   "count": 23,
+   "count": 24,
    "error": "",
    "method": "html",
    "requests": 1,
@@ -531,11 +533,11 @@
    "slug": "bunge",
    "ats": "successfactors",
    "status": "ok",
-   "count": 5,
+   "count": 6,
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 12.5
+   "secs": 13.0
   },
   {
    "company": "Café Communications",
@@ -557,7 +559,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.4
+   "secs": 8.1
   },
   {
    "company": "Capgemini",
@@ -568,7 +570,7 @@
    "error": "",
    "method": "render",
    "requests": 12,
-   "secs": 108.3
+   "secs": 109.8
   },
   {
    "company": "Carlsberg",
@@ -579,7 +581,7 @@
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 13.6
+   "secs": 13.9
   },
   {
    "company": "CBA",
@@ -590,18 +592,18 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 10.0
+   "secs": 9.8
   },
   {
    "company": "CIB Bank",
    "slug": "cib-bank",
    "ats": "successfactors",
    "status": "ok",
-   "count": 14,
+   "count": 16,
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 12.6
+   "secs": 13.2
   },
   {
    "company": "CIG Pannónia",
@@ -612,7 +614,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 3.7
+   "secs": 2.1
   },
   {
    "company": "Citi Budapest",
@@ -623,7 +625,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.3
+   "secs": 1.4
   },
   {
    "company": "Coca-Cola Company Budapest",
@@ -643,7 +645,7 @@
    "error": "",
    "method": "render",
    "requests": 12,
-   "secs": 123.0
+   "secs": 119.6
   },
   {
    "company": "Cognizant",
@@ -654,7 +656,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 6.9
+   "secs": 7.3
   },
   {
    "company": "Colgate-Palmolive",
@@ -665,7 +667,7 @@
    "error": "",
    "method": "render",
    "requests": 12,
-   "secs": 99.2
+   "secs": 93.2
   },
   {
    "company": "Commsignia",
@@ -687,7 +689,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.6
+   "secs": 8.2
   },
   {
    "company": "Cordia",
@@ -698,7 +700,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 10.9
+   "secs": 12.5
   },
   {
    "company": "Craft",
@@ -709,7 +711,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 7.5
+   "secs": 7.7
   },
   {
    "company": "Danone",
@@ -720,7 +722,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 2.5
+   "secs": 2.4
   },
   {
    "company": "Danubius Hotels",
@@ -731,18 +733,18 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 2.4
+   "secs": 2.3
   },
   {
    "company": "Decathlon",
    "slug": "decathlon",
    "ats": "render",
    "status": "ok",
-   "count": 5,
+   "count": 4,
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 9.7
+   "secs": 9.4
   },
   {
    "company": "Deichmann",
@@ -753,7 +755,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 9.6
+   "secs": 8.5
   },
   {
    "company": "Dél-pesti Centrumkórház – Országos Hematológiai és Infektológiai Intézet",
@@ -764,7 +766,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.9
+   "secs": 4.3
   },
   {
    "company": "Dell Technologies",
@@ -775,7 +777,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.2
+   "secs": 7.8
   },
   {
    "company": "Deloitte",
@@ -802,7 +804,7 @@
    "slug": "dept",
    "ats": "greenhouse",
    "status": "ok",
-   "count": 44,
+   "count": 45,
    "error": "",
    "method": "greenhouse",
    "requests": 1,
@@ -817,7 +819,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 7.8
+   "secs": 8.1
   },
   {
    "company": "DHL",
@@ -828,7 +830,7 @@
    "error": "",
    "method": "phenom",
    "requests": 360,
-   "secs": 347.3
+   "secs": 348.8
   },
   {
    "company": "Diageo",
@@ -848,7 +850,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.3
+   "secs": 7.8
   },
   {
    "company": "Digitális Magyarország Ügynökség",
@@ -859,7 +861,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 20.2
+   "secs": 8.5
   },
   {
    "company": "Diligent Budapest",
@@ -890,7 +892,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.3
+   "secs": 8.2
   },
   {
    "company": "Dometic",
@@ -901,7 +903,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 7.5
+   "secs": 7.2
   },
   {
    "company": "Dreher",
@@ -923,7 +925,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.8
+   "secs": 1.7
   },
   {
    "company": "Egis",
@@ -934,18 +936,18 @@
    "error": "",
    "method": "successfactors",
    "requests": 13,
-   "secs": 14.3
+   "secs": 14.1
   },
   {
    "company": "Egon Zehnder",
    "slug": "egon-zehnder",
    "ats": "workable",
    "status": "ok",
-   "count": 3,
+   "count": 2,
    "error": "",
    "method": "workable",
    "requests": 1,
-   "secs": 1.1
+   "secs": 0.8
   },
   {
    "company": "Electrolux",
@@ -956,7 +958,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.9
+   "secs": 8.3
   },
   {
    "company": "Eli Lilly",
@@ -967,7 +969,7 @@
    "error": "",
    "method": "render",
    "requests": 12,
-   "secs": 9.1
+   "secs": 8.6
   },
   {
    "company": "eMAG",
@@ -984,12 +986,12 @@
    "company": "Emarsys (SAP)",
    "slug": "emarsys",
    "ats": "successfactors",
-   "status": "empty",
-   "count": 0,
+   "status": "ok",
+   "count": 12,
    "error": "",
    "method": "render",
-   "requests": 1,
-   "secs": 81.0
+   "requests": 12,
+   "secs": 80.9
   },
   {
    "company": "ENGIE Hungária",
@@ -1009,7 +1011,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.5
+   "secs": 8.4
   },
   {
    "company": "EPAM Systems",
@@ -1020,7 +1022,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 7.7
+   "secs": 9.3
   },
   {
    "company": "Ericsson",
@@ -1031,7 +1033,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.1
+   "secs": 7.6
   },
   {
    "company": "Erste Bank",
@@ -1042,7 +1044,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 9.1
+   "secs": 11.4
   },
   {
    "company": "Essity",
@@ -1062,7 +1064,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 9.6
+   "secs": 9.7
   },
   {
    "company": "Euronics",
@@ -1073,7 +1075,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.5
+   "secs": 8.2
   },
   {
    "company": "Evosoft (Siemens)",
@@ -1084,7 +1086,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 3.1
+   "secs": 3.4
   },
   {
    "company": "Magyar Export-Import Bank (Eximbank)",
@@ -1095,7 +1097,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 11.8
+   "secs": 11.9
   },
   {
    "company": "ExxonMobil Budapest",
@@ -1106,18 +1108,18 @@
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 10.7
+   "secs": 11.0
   },
   {
    "company": "EY",
    "slug": "ey",
    "ats": "successfactors",
    "status": "ok",
-   "count": 36,
+   "count": 37,
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 15.3
+   "secs": 16.8
   },
   {
    "company": "Ferrero",
@@ -1128,25 +1130,25 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.6
+   "secs": 7.9
   },
   {
    "company": "foodora",
    "slug": "foodora",
    "ats": "html",
    "status": "ok",
-   "count": 1,
+   "count": 2,
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.5
+   "secs": 1.6
   },
   {
    "company": "Formlabs Budapest",
    "slug": "formlabs",
    "ats": "greenhouse",
    "status": "ok",
-   "count": 22,
+   "count": 23,
    "error": "",
    "method": "greenhouse",
    "requests": 1,
@@ -1161,7 +1163,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 9.6
+   "secs": 9.3
   },
   {
    "company": "Budapest Főváros Önkormányzata",
@@ -1172,7 +1174,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 9.2
+   "secs": 9.1
   },
   {
    "company": "Fővárosi Csatornázási Művek",
@@ -1183,7 +1185,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 2.3
+   "secs": 2.4
   },
   {
    "company": "Fővárosi Vízművek",
@@ -1214,7 +1216,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.9
+   "secs": 9.1
   },
   {
    "company": "FrieslandCampina",
@@ -1225,7 +1227,7 @@
    "error": "",
    "method": "render",
    "requests": 12,
-   "secs": 98.8
+   "secs": 98.2
   },
   {
    "company": "Futureal",
@@ -1236,7 +1238,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 11.0
+   "secs": 10.5
   },
   {
    "company": "Gazdasági Versenyhivatal",
@@ -1247,18 +1249,18 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 10.4
+   "secs": 10.9
   },
   {
    "company": "GE HealthCare",
    "slug": "ge-healthcare",
    "ats": "phenom",
    "status": "ok",
-   "count": 15,
+   "count": 11,
    "error": "",
    "method": "phenom",
    "requests": 360,
-   "secs": 336.8
+   "secs": 326.1
   },
   {
    "company": "Generali Biztosító",
@@ -1269,7 +1271,7 @@
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 11.2
+   "secs": 10.6
   },
   {
    "company": "GoTo (LogMeIn)",
@@ -1289,14 +1291,14 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 7.6
+   "secs": 7.9
   },
   {
    "company": "Groupama Biztosító",
    "slug": "groupama-biztosito",
    "ats": "render",
    "status": "ok",
-   "count": 14,
+   "count": 13,
    "error": "",
    "method": "render",
    "requests": 0,
@@ -1311,7 +1313,7 @@
    "error": "",
    "method": "render",
    "requests": 12,
-   "secs": 7.8
+   "secs": 7.6
   },
   {
    "company": "GYSEV",
@@ -1322,7 +1324,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.9
+   "secs": 8.7
   },
   {
    "company": "H&M",
@@ -1333,7 +1335,7 @@
    "error": "",
    "method": "smartrecruiters",
    "requests": 12,
-   "secs": 12.3
+   "secs": 12.2
   },
   {
    "company": "Heim Pál Országos Gyermekgyógyászati Intézet",
@@ -1355,7 +1357,7 @@
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 12.0
+   "secs": 12.6
   },
   {
    "company": "HELL Energy",
@@ -1366,7 +1368,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.5
+   "secs": 8.1
   },
   {
    "company": "Henkel",
@@ -1377,7 +1379,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.4
+   "secs": 8.5
   },
   {
    "company": "HEPA Magyar Exportfejlesztési Ügynökség",
@@ -1388,7 +1390,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 9.3
+   "secs": 10.8
   },
   {
    "company": "Hiflylabs",
@@ -1410,7 +1412,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.6
+   "secs": 1.0
   },
   {
    "company": "HP",
@@ -1421,7 +1423,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.0
+   "secs": 7.7
   },
   {
    "company": "Hungaroring Sport",
@@ -1432,7 +1434,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 2.5
+   "secs": 2.8
   },
   {
    "company": "IBM",
@@ -1443,7 +1445,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.5
+   "secs": 7.5
   },
   {
    "company": "IKEA",
@@ -1454,7 +1456,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.3
+   "secs": 1.2
   },
   {
    "company": "ingatlan.com",
@@ -1465,7 +1467,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.6
+   "secs": 1.9
   },
   {
    "company": "Invia",
@@ -1476,7 +1478,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 6.7
+   "secs": 6.5
   },
   {
    "company": "Iparművészeti Múzeum",
@@ -1487,7 +1489,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 7.6
+   "secs": 8.7
   },
   {
    "company": "iStyle",
@@ -1498,7 +1500,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.5
+   "secs": 1.4
   },
   {
    "company": "Jabil",
@@ -1509,7 +1511,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.3
+   "secs": 2.7
   },
   {
    "company": "Janus Henderson Investors",
@@ -1520,7 +1522,7 @@
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 10.6
+   "secs": 10.1
   },
   {
    "company": "Jófogás (Adevinta)",
@@ -1531,7 +1533,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 6.7
+   "secs": 6.4
   },
   {
    "company": "Johnson & Johnson",
@@ -1546,12 +1548,12 @@
    "company": "JTI",
    "slug": "jti",
    "ats": "successfactors",
-   "status": "empty",
-   "count": 0,
+   "status": "ok",
+   "count": 3,
    "error": "",
-   "method": "render",
+   "method": "successfactors",
    "requests": 12,
-   "secs": 100.7
+   "secs": 13.4
   },
   {
    "company": "JYSK",
@@ -1573,7 +1575,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.7
+   "secs": 8.6
   },
   {
    "company": "Kardex",
@@ -1593,7 +1595,7 @@
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 12.3
+   "secs": 13.0
   },
   {
    "company": "Közbeszerzési Hatóság",
@@ -1604,7 +1606,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.1
+   "secs": 8.2
   },
   {
    "company": "Közép-európai Egyetem (CEU)",
@@ -1615,7 +1617,7 @@
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 11.1
+   "secs": 11.2
   },
   {
    "company": "KPMG",
@@ -1626,7 +1628,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.9
+   "secs": 9.1
   },
   {
    "company": "Krka",
@@ -1637,7 +1639,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.3
+   "secs": 8.4
   },
   {
    "company": "L'Oréal Magyarország",
@@ -1648,7 +1650,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 9.8
+   "secs": 8.8
   },
   {
    "company": "Lechner Tudásközpont",
@@ -1659,16 +1661,18 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 11.7
+   "secs": 12.2
   },
   {
    "company": "LEGO",
    "slug": "lego",
    "ats": "workday",
-   "status": "fail",
-   "count": 0,
-   "error": "workday: HTTPError: 429 Client Error: Too Many Requests for url: https://lego.wd103.myworkdayjobs.com/wday/cxs/lego/LEGO_External/jobs",
-   "method": "workday"
+   "status": "ok",
+   "count": 2,
+   "error": "",
+   "method": "workday",
+   "requests": 72,
+   "secs": 88.1
   },
   {
    "company": "Lenovo",
@@ -1679,18 +1683,18 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.3
+   "secs": 8.2
   },
   {
    "company": "LG Electronics",
    "slug": "lg-electronics",
    "ats": "successfactors",
    "status": "ok",
-   "count": 62,
+   "count": 63,
    "error": "",
    "method": "render",
    "requests": 12,
-   "secs": 102.0
+   "secs": 102.3
   },
   {
    "company": "Libri",
@@ -1701,7 +1705,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.5
+   "secs": 8.3
   },
   {
    "company": "Lidl",
@@ -1712,7 +1716,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.1
+   "secs": 9.0
   },
   {
    "company": "LPP (Reserved)",
@@ -1723,7 +1727,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 9.9
+   "secs": 8.8
   },
   {
    "company": "Magnet Bank",
@@ -1734,7 +1738,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 10.5
+   "secs": 10.0
   },
   {
    "company": "Magyar Állami Operaház",
@@ -1745,7 +1749,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 7.8
+   "secs": 7.6
   },
   {
    "company": "Magyar Államkincstár",
@@ -1756,7 +1760,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 2.8
+   "secs": 3.0
   },
   {
    "company": "Magyar Közút",
@@ -1767,7 +1771,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 6.1
+   "secs": 4.8
   },
   {
    "company": "Magyar Nemzeti Bank",
@@ -1778,7 +1782,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 2.0
+   "secs": 1.9
   },
   {
    "company": "Magyar Nemzeti Múzeum",
@@ -1789,18 +1793,18 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 2.0
+   "secs": 2.1
   },
   {
    "company": "Magyar Posta",
    "slug": "magyar-posta",
    "ats": "html",
    "status": "ok",
-   "count": 156,
+   "count": 153,
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.6
+   "secs": 8.5
   },
   {
    "company": "Magyar Suzuki",
@@ -1811,7 +1815,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 2.2
+   "secs": 2.5
   },
   {
    "company": "Magyar Telekom",
@@ -1822,7 +1826,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.3
+   "secs": 8.2
   },
   {
    "company": "Magyar Természettudományi Múzeum",
@@ -1833,7 +1837,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.1
+   "secs": 8.0
   },
   {
    "company": "Magyar Turisztikai Ügynökség",
@@ -1844,7 +1848,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.3
+   "secs": 8.4
   },
   {
    "company": "Market Építő",
@@ -1855,7 +1859,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.5
+   "secs": 8.3
   },
   {
    "company": "Mars",
@@ -1866,7 +1870,7 @@
    "error": "",
    "method": "phenom",
    "requests": 12,
-   "secs": 16.0
+   "secs": 12.6
   },
   {
    "company": "Master Good",
@@ -1877,18 +1881,18 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 7.6
+   "secs": 7.5
   },
   {
    "company": "Mastercard Budapest",
    "slug": "mastercard",
    "ats": "phenom",
    "status": "ok",
-   "count": 2,
+   "count": 1,
    "error": "",
    "method": "phenom",
    "requests": 12,
-   "secs": 19.3
+   "secs": 14.6
   },
   {
    "company": "MÁV Csoport",
@@ -1899,7 +1903,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.8
+   "secs": 1.9
   },
   {
    "company": "MBH Bank",
@@ -1910,7 +1914,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 9.3
+   "secs": 8.8
   },
   {
    "company": "McCann Budapest",
@@ -1921,7 +1925,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 7.9
+   "secs": 8.1
   },
   {
    "company": "McDonald's",
@@ -1932,7 +1936,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 6.9
+   "secs": 6.6
   },
   {
    "company": "McKinsey Budapest",
@@ -1952,7 +1956,7 @@
    "error": "",
    "method": "successfactors",
    "requests": 13,
-   "secs": 15.0
+   "secs": 15.7
   },
   {
    "company": "Mediaworks",
@@ -1963,7 +1967,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.6
+   "secs": 8.7
   },
   {
    "company": "Medicover",
@@ -1974,7 +1978,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.5
+   "secs": 7.8
   },
   {
    "company": "Mercedes-Benz Hungary",
@@ -1985,7 +1989,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 10.2
+   "secs": 9.9
   },
   {
    "company": "MET Group",
@@ -1996,7 +2000,7 @@
    "error": "",
    "method": "smartrecruiters",
    "requests": 12,
-   "secs": 12.4
+   "secs": 12.3
   },
   {
    "company": "MetLife",
@@ -2007,7 +2011,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 7.7
+   "secs": 7.8
   },
   {
    "company": "Magyar Fejlesztési Bank (MFB)",
@@ -2018,7 +2022,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 9.5
+   "secs": 9.8
   },
   {
    "company": "Microsoft Magyarország",
@@ -2029,7 +2033,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.2
+   "secs": 7.6
   },
   {
    "company": "Möbelix",
@@ -2040,18 +2044,18 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 7.1
+   "secs": 6.7
   },
   {
    "company": "MOL Csoport",
    "slug": "mol-csoport",
    "ats": "rss",
    "status": "ok",
-   "count": 2,
+   "count": 3,
    "error": "",
    "method": "rss",
    "requests": 1,
-   "secs": 1.1
+   "secs": 1.2
   },
   {
    "company": "Mondelez",
@@ -2067,11 +2071,11 @@
    "slug": "morgan-stanley",
    "ats": "render",
    "status": "ok",
-   "count": 12,
+   "count": 13,
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 7.8
+   "secs": 7.4
   },
   {
    "company": "MTVA (Médiaszolgáltatás-támogató és Vagyonkezelő Alap)",
@@ -2082,7 +2086,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 10.4
+   "secs": 10.0
   },
   {
    "company": "Müpa Budapest",
@@ -2093,7 +2097,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.6
+   "secs": 9.0
   },
   {
    "company": "MVM Csoport",
@@ -2104,7 +2108,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.6
+   "secs": 8.7
   },
   {
    "company": "Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH)",
@@ -2126,7 +2130,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 2.1
+   "secs": 2.3
   },
   {
    "company": "Nemzeti Kommunikációs Hivatal",
@@ -2137,7 +2141,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 9.0
+   "secs": 10.2
   },
   {
    "company": "Nemzeti Média- és Hírközlési Hatóság (NMHH)",
@@ -2148,7 +2152,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.5
+   "secs": 8.4
   },
   {
    "company": "Néprajzi Múzeum",
@@ -2159,7 +2163,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.8
+   "secs": 2.0
   },
   {
    "company": "Nestlé",
@@ -2170,7 +2174,7 @@
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 12.5
+   "secs": 13.3
   },
   {
    "company": "NN Biztosító",
@@ -2190,7 +2194,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 8.3
+   "secs": 8.5
   },
   {
    "company": "Nokia Budapest",
@@ -2201,18 +2205,18 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.6
+   "secs": 8.0
   },
   {
    "company": "Notino",
    "slug": "notino",
    "ats": "render",
    "status": "ok",
-   "count": 15,
+   "count": 24,
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 92.9
+   "secs": 92.3
   },
   {
    "company": "Novartis",
@@ -2223,7 +2227,7 @@
    "error": "",
    "method": "render",
    "requests": 12,
-   "secs": 97.4
+   "secs": 92.8
   },
   {
    "company": "Novo Nordisk",
@@ -2234,18 +2238,18 @@
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 11.9
+   "secs": 12.6
   },
   {
    "company": "OBI",
    "slug": "obi",
    "ats": "html",
    "status": "ok",
-   "count": 30,
+   "count": 29,
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.7
+   "secs": 2.0
   },
   {
    "company": "Óbudai Egyetem",
@@ -2256,7 +2260,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 12.6
+   "secs": 13.1
   },
   {
    "company": "Omnicom Media Group",
@@ -2276,18 +2280,18 @@
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 12.2
+   "secs": 12.3
   },
   {
    "company": "One Magyarország",
    "slug": "one-magyarorszag",
    "ats": "successfactors",
    "status": "ok",
-   "count": 13,
+   "count": 14,
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 15.7
+   "secs": 14.6
   },
   {
    "company": "Opella",
@@ -2318,7 +2322,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 10.0
+   "secs": 10.2
   },
   {
    "company": "Országos Onkológiai Intézet",
@@ -2329,7 +2333,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 11.5
+   "secs": 10.1
   },
   {
    "company": "OTP Bank",
@@ -2340,7 +2344,7 @@
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 13.2
+   "secs": 13.6
   },
   {
    "company": "OTP Mobil (SimplePay)",
@@ -2351,7 +2355,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.9
+   "secs": 1.8
   },
   {
    "company": "Paks II. Atomerőmű",
@@ -2362,7 +2366,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 10.6
+   "secs": 10.8
   },
   {
    "company": "Penny Market",
@@ -2373,7 +2377,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 9.2
+   "secs": 11.6
   },
   {
    "company": "PepsiCo",
@@ -2384,16 +2388,18 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.2
+   "secs": 9.3
   },
   {
    "company": "Pernod Ricard",
    "slug": "pernod-ricard",
    "ats": "workday",
-   "status": "fail",
+   "status": "empty",
    "count": 0,
-   "error": "workday: HTTPError: 429 Client Error: Too Many Requests for url: https://pernodricard.wd3.myworkdayjobs.com/wday/cxs/pernodricard/pernod-ricard/jobs",
-   "method": "workday"
+   "error": "",
+   "method": "workday",
+   "requests": 76,
+   "secs": 114.8
   },
   {
    "company": "Petrányi Autó",
@@ -2404,7 +2410,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 3.2
+   "secs": 4.3
   },
   {
    "company": "Pfizer",
@@ -2424,7 +2430,7 @@
    "error": "",
    "method": "phenom",
    "requests": 12,
-   "secs": 20.4
+   "secs": 17.5
   },
   {
    "company": "Philips",
@@ -2435,7 +2441,7 @@
    "error": "",
    "method": "render",
    "requests": 12,
-   "secs": 8.7
+   "secs": 7.6
   },
   {
    "company": "Phoenix Pharma",
@@ -2446,14 +2452,14 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.8
+   "secs": 1.7
   },
   {
    "company": "Pick Szeged",
    "slug": "pick-szeged",
    "ats": "successfactors",
    "status": "ok",
-   "count": 45,
+   "count": 46,
    "error": "",
    "method": "successfactors",
    "requests": 13,
@@ -2468,7 +2474,7 @@
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 13.3
+   "secs": 14.1
   },
   {
    "company": "Praktiker",
@@ -2479,7 +2485,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 9.0
+   "secs": 9.1
   },
   {
    "company": "Prezi",
@@ -2501,7 +2507,7 @@
    "error": "",
    "method": "render",
    "requests": 12,
-   "secs": 98.3
+   "secs": 97.2
   },
   {
    "company": "Publicis Groupe",
@@ -2512,7 +2518,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.6
+   "secs": 8.7
   },
   {
    "company": "PwC",
@@ -2523,7 +2529,7 @@
    "error": "",
    "method": "render",
    "requests": 12,
-   "secs": 9.6
+   "secs": 8.1
   },
   {
    "company": "Raiffeisen Bank",
@@ -2534,18 +2540,18 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.4
+   "secs": 11.3
   },
   {
    "company": "Reckitt",
    "slug": "reckitt",
    "ats": "successfactors",
    "status": "ok",
-   "count": 4,
+   "count": 3,
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 12.3
+   "secs": 12.5
   },
   {
    "company": "Red Bull",
@@ -2556,7 +2562,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.0
+   "secs": 7.4
   },
   {
    "company": "Republic Group",
@@ -2567,18 +2573,18 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.6
+   "secs": 1.8
   },
   {
    "company": "Revolut",
    "slug": "revolut",
    "ats": "html",
-   "status": "ok",
-   "count": 4,
+   "status": "empty",
+   "count": 0,
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 7.8
+   "secs": 6.7
   },
   {
    "company": "Rheinmetall",
@@ -2589,7 +2595,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 7.4
+   "secs": 7.2
   },
   {
    "company": "Richter Gedeon",
@@ -2600,7 +2606,7 @@
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 11.1
+   "secs": 10.9
   },
   {
    "company": "Roche",
@@ -2611,18 +2617,18 @@
    "error": "",
    "method": "phenom",
    "requests": 360,
-   "secs": 344.7
+   "secs": 332.8
   },
   {
    "company": "Rossmann",
    "slug": "rossmann",
    "ats": "html",
    "status": "ok",
-   "count": 52,
+   "count": 44,
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 2.2
+   "secs": 2.4
   },
   {
    "company": "Sabre Budapest",
@@ -2647,11 +2653,11 @@
    "slug": "sanofi",
    "ats": "html",
    "status": "ok",
-   "count": 25,
+   "count": 24,
    "error": "",
    "method": "html",
    "requests": 12,
-   "secs": 15.5
+   "secs": 12.1
   },
   {
    "company": "SAP",
@@ -2661,8 +2667,8 @@
    "count": 0,
    "error": "",
    "method": "render",
-   "requests": 1,
-   "secs": 80.9
+   "requests": 3,
+   "secs": 79.3
   },
   {
    "company": "Schneider Electric",
@@ -2673,7 +2679,7 @@
    "error": "",
    "method": "render",
    "requests": 12,
-   "secs": 79.4
+   "secs": 77.8
   },
   {
    "company": "Semmelweis Egyetem",
@@ -2684,14 +2690,14 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 9.5
+   "secs": 10.4
   },
   {
    "company": "SEON",
    "slug": "seon",
    "ats": "render",
    "status": "ok",
-   "count": 15,
+   "count": 14,
    "error": "",
    "method": "render",
    "requests": 0,
@@ -2702,11 +2708,11 @@
    "slug": "shapr3d",
    "ats": "html",
    "status": "ok",
-   "count": 5,
+   "count": 1,
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 7.5
+   "secs": 14.3
   },
   {
    "company": "Shell Hungary",
@@ -2737,7 +2743,7 @@
    "error": "",
    "method": "html",
    "requests": 12,
-   "secs": 28.2
+   "secs": 29.3
   },
   {
    "company": "Spar",
@@ -2748,7 +2754,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.3
+   "secs": 8.4
   },
   {
    "company": "Stada",
@@ -2759,7 +2765,7 @@
    "error": "",
    "method": "render",
    "requests": 12,
-   "secs": 109.6
+   "secs": 111.5
   },
   {
    "company": "Starcom",
@@ -2781,7 +2787,7 @@
    "error": "",
    "method": "lever",
    "requests": 1,
-   "secs": 1.4
+   "secs": 1.2
   },
   {
    "company": "Szabályozott Tevékenységek Felügyeleti Hatósága",
@@ -2792,7 +2798,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 9.6
+   "secs": 39.7
   },
   {
    "company": "Szallas Group",
@@ -2808,11 +2814,11 @@
    "slug": "szerencsejatek-zrt",
    "ats": "successfactors",
    "status": "ok",
-   "count": 21,
+   "count": 22,
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 12.8
+   "secs": 13.1
   },
   {
    "company": "Takeda",
@@ -2823,7 +2829,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.4
+   "secs": 1.3
   },
   {
    "company": "Tata Consultancy Services",
@@ -2834,18 +2840,18 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 11.4
+   "secs": 11.1
   },
   {
    "company": "Tesco",
    "slug": "tesco",
    "ats": "html",
    "status": "ok",
-   "count": 6,
+   "count": 5,
    "error": "",
    "method": "html",
    "requests": 12,
-   "secs": 19.2
+   "secs": 19.1
   },
   {
    "company": "Teva",
@@ -2856,7 +2862,7 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 9.9
+   "secs": 9.3
   },
   {
    "company": "Thermo Fisher Scientific",
@@ -2867,7 +2873,7 @@
    "error": "",
    "method": "phenom",
    "requests": 360,
-   "secs": 358.5
+   "secs": 332.9
   },
   {
    "company": "thyssenkrupp Budapest",
@@ -2889,7 +2895,7 @@
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 2.2
+   "secs": 2.1
   },
   {
    "company": "Tresorit",
@@ -2900,18 +2906,18 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 9.3
+   "secs": 9.5
   },
   {
    "company": "Turbine AI",
    "slug": "turbine-ai",
    "ats": "workable",
    "status": "ok",
-   "count": 5,
+   "count": 6,
    "error": "",
    "method": "workable",
    "requests": 1,
-   "secs": 0.8
+   "secs": 0.7
   },
   {
    "company": "UniCredit Bank",
@@ -2922,25 +2928,25 @@
    "error": "",
    "method": "html",
    "requests": 12,
-   "secs": 34.8
+   "secs": 33.4
   },
   {
    "company": "Unilever",
    "slug": "unilever",
    "ats": "html",
    "status": "ok",
-   "count": 1,
+   "count": 3,
    "error": "",
    "method": "html",
    "requests": 1,
-   "secs": 1.3
+   "secs": 1.9
   },
   {
    "company": "Unilever Budapest Business Service Centre",
    "slug": "unilever-business-service-centre",
    "ats": "html",
    "status": "ok",
-   "count": 1,
+   "count": 3,
    "error": "",
    "method": "html",
    "requests": 1,
@@ -2955,7 +2961,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.4
+   "secs": 10.9
   },
   {
    "company": "UNIQA Biztosító",
@@ -2966,7 +2972,7 @@
    "error": "",
    "method": "render",
    "requests": 0,
-   "secs": 8.7
+   "secs": 10.3
   },
   {
    "company": "Veolia Energia Magyarország",
@@ -3006,40 +3012,40 @@
    "error": "",
    "method": "render",
    "requests": 1,
-   "secs": 10.7
+   "secs": 7.4
   },
   {
    "company": "Vodafone Intelligent Solutions (VOIS) Budapest",
    "slug": "vodafone-intelligent-solutions",
    "ats": "successfactors",
    "status": "ok",
-   "count": 37,
+   "count": 34,
    "error": "",
    "method": "successfactors",
    "requests": 15,
-   "secs": 16.5
+   "secs": 17.4
   },
   {
    "company": "Volánbusz",
    "slug": "volanbusz",
    "ats": "html",
    "status": "ok",
-   "count": 31,
+   "count": 33,
    "error": "",
    "method": "html",
    "requests": 12,
-   "secs": 13.2
+   "secs": 14.5
   },
   {
    "company": "Wise",
    "slug": "wise",
    "ats": "sitemap",
    "status": "ok",
-   "count": 21,
+   "count": 22,
    "error": "",
    "method": "sitemap",
    "requests": 1,
-   "secs": 1.6
+   "secs": 1.4
   },
   {
    "company": "Wizz Air",
@@ -3050,14 +3056,14 @@
    "error": "",
    "method": "successfactors",
    "requests": 15,
-   "secs": 15.3
+   "secs": 15.8
   },
   {
    "company": "Wolt",
    "slug": "wolt",
    "ats": "greenhouse",
    "status": "ok",
-   "count": 15,
+   "count": 16,
    "error": "",
    "method": "greenhouse",
    "requests": 1,
@@ -3092,7 +3098,7 @@
    "error": "",
    "method": "successfactors",
    "requests": 12,
-   "secs": 15.4
+   "secs": 14.1
   }
  ]
 }
